@@ -1514,6 +1514,13 @@
     "title": "Cash Manager, Treasury",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358112008"
   },
+  "anthropic-5358116008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Senior Manager, Infrastructure Tax",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358116008"
+  },
   "anthropic-5358120008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
@@ -2295,56 +2302,19 @@
     "title": "Partner Marketing Lead, Cloud",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5406113008"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Distinguished-Engineer---Data-Center-System-Software-Architect_JR1973423": {
+  "nvidia-/job/US-CA-Santa-Clara/PCB-Library-Engineer_JR2020746": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
     "first_seen": "2026-08-26",
-    "title": "Distinguished Engineer \u2013 Data Center System Software Architect",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Distinguished-Engineer---Data-Center-System-Software-Architect_JR1973423"
+    "title": "PCB Library Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PCB-Library-Engineer_JR2020746"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Principal-Firmware-Engineer---Server-Manageability-and-Observability_JR2001996": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---Fleet-Debuggability_JR2021461": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
     "first_seen": "2026-08-26",
-    "title": "Principal Firmware Engineer \u2013 Server Manageability and Observability",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Firmware-Engineer---Server-Manageability-and-Observability_JR2001996"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405": {
-    "company": "NVIDIA",
-    "first_seen": "2026-08-26",
-    "title": "Principal Software Engineer \u2013 CSP Engagements",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer---AV-Platform_JR2023594": {
-    "company": "NVIDIA",
-    "first_seen": "2026-08-26",
-    "title": "Senior Software Engineer - AV Platform",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---AV-Platform_JR2023594"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Architect---Datacenter_JR2019127": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-08-26",
-    "title": "Senior Systems Architect - Datacenter",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Architect---Datacenter_JR2019127"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870": {
-    "company": "NVIDIA",
-    "first_seen": "2026-08-26",
-    "title": "Senior Systems Software Engineer, Data Center Platform Enablement",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2024097": {
-    "company": "NVIDIA",
-    "first_seen": "2026-08-26",
-    "title": "Software Engineer, Performance Lab and Tools",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2024097"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574": {
-    "company": "NVIDIA",
-    "first_seen": "2026-08-26",
-    "title": "System Software Engineer - Performance Verification Infrastructure",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574"
+    "title": "Senior Systems Software Engineer - Fleet Debuggability",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---Fleet-Debuggability_JR2021461"
   },
   "openai-00207abc-49b7-465c-a219-f7c1140f8047": {
     "apply_status": "need_to_apply",
