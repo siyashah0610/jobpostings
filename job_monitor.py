@@ -47,6 +47,34 @@ def matches_interest(title: str) -> bool:
     return bool(KEYWORD_RE.search(title or ""))
 
 
+def is_us_location(location: str) -> bool:
+    """Check if a location is in the United States."""
+    if not location:
+        return False
+
+    location_upper = location.upper()
+
+    # US states (abbreviations)
+    us_states = {
+        "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA",
+        "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD",
+        "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ",
+        "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
+        "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY", "DC"
+    }
+
+    # Check for explicit US indicators
+    if "UNITED STATES" in location_upper or "USA" in location_upper:
+        return True
+
+    # Check for state abbreviations (e.g., "CA", "NY")
+    for state in us_states:
+        if f", {state}" in location_upper or f" {state}" in location_upper:
+            return True
+
+    return False
+
+
 # ---------------------------------------------------------------------------
 # Per-company fetchers. Each returns a list of dicts:
 #   {"id": str, "company": str, "title": str, "location": str, "url": str}
@@ -242,22 +270,44 @@ def save_state(state):
 def build_dashboard(all_matching, new_today, errors, state):
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-    def job_row(job, is_new=False):
-        badge = '<span class="new-badge">NEW</span>' if is_new else ""
-        loc = f'<span class="loc">{escape(job.get("location") or "")}</span>' if job.get("location") else ""
-        return f"""
-        <a class="job-row" href="{escape(job['url'])}" target="_blank" rel="noopener">
-          <span class="company-tag company-{job['company'].lower()}">{escape(job['company'])}</span>
-          <span class="title">{escape(job['title'])}</span>
-          {loc}
-          {badge}
-        </a>"""
-
     def escape(s):
         return (
             (s or "")
             .replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
         )
+
+    def job_row(job, is_new=False):
+        badge = '<span class="new-badge">NEW</span>' if is_new else ""
+        loc = f'<span class="loc">{escape(job.get("location") or "")}</span>' if job.get("location") else ""
+        status = state.get(job["id"], {}).get("apply_status", "need_to_apply")
+
+        status_options = [
+            ("need_to_apply", "Need to Apply"),
+            ("dont_want_to_apply", "Don't Want to Apply"),
+            ("applied", "Applied")
+        ]
+
+        status_html = '<div class="status-toggle">'
+        for status_val, status_label in status_options:
+            checked = 'checked' if status == status_val else ''
+            status_html += f'''<label class="status-option">
+              <input type="radio" name="status-{escape(job['id'])}" value="{status_val}" {checked} data-job-id="{escape(job['id'])}">
+              <span>{status_label}</span>
+            </label>'''
+        status_html += '</div>'
+
+        return f"""
+        <div class="job-row">
+          <div class="job-info">
+            <a href="{escape(job['url'])}" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-{job['company'].lower()}">{escape(job['company'])}</span>
+              <span class="title">{escape(job['title'])}</span>
+              {loc}
+              {badge}
+            </a>
+          </div>
+          {status_html}
+        </div>"""
 
     by_company = {}
     for j in all_matching:
@@ -265,36 +315,12 @@ def build_dashboard(all_matching, new_today, errors, state):
 
     new_ids = {j["id"] for j in new_today}
 
-    new_section = "".join(job_row(j, is_new=True) for j in new_today) if new_today else \
-        '<p class="empty">No new matching postings since the last check.</p>'
-
-    company_sections = ""
-    for company in FETCHERS.keys():
-        jobs = sorted(by_company.get(company, []), key=lambda j: j["title"])
-        if not jobs:
-            continue
-        rows = "".join(job_row(j, is_new=(j["id"] in new_ids)) for j in jobs)
-        company_sections += f"""
-        <section class="company-section">
-          <h2>{escape(company)} <span class="count">{len(jobs)}</span></h2>
-          {rows}
-        </section>"""
-
-    error_banner = ""
-    if errors:
-        items = "".join(f"<li>{escape(e)}</li>" for e in errors)
-        error_banner = f"""
-        <div class="error-banner">
-          <strong>Some sources didn't load this run:</strong>
-          <ul>{items}</ul>
-        </div>"""
-
-    html = f"""<!DOCTYPE html>
+    base_html_template = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Job Radar</title>
+<title>Job Radar{page_title}</title>
 <style>
   :root {{
     --ink: #0b1220;
@@ -345,7 +371,25 @@ def build_dashboard(all_matching, new_today, errors, state):
     font-weight: 400;
     color: #fff;
   }}
+  h1 a {{ color: inherit; text-decoration: none; }}
+  h1 a:hover {{ color: var(--accent); }}
   .subtitle {{ color: var(--muted); font-size: 13px; }}
+  nav {{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+  }}
+  nav a {{
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 8px;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+  }}
+  nav a:hover {{ background: var(--panel); }}
+  nav a.active {{ background: var(--accent); color: var(--ink); }}
   h2 {{
     font-size: 13px;
     text-transform: uppercase;
@@ -360,14 +404,19 @@ def build_dashboard(all_matching, new_today, errors, state):
   }}
   .count {{ color: var(--accent); font-size: 12px; }}
   .job-row {{
+    padding: 12px 4px;
+    border-bottom: 1px solid var(--line);
+    font-size: 14px;
+  }}
+  .job-info {{
+    margin-bottom: 8px;
+  }}
+  .job-link {{
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 10px 4px;
-    border-bottom: 1px solid var(--line);
     text-decoration: none;
     color: var(--text);
-    font-size: 14px;
     flex-wrap: wrap;
   }}
   .job-row:hover {{ background: var(--panel); }}
@@ -390,6 +439,28 @@ def build_dashboard(all_matching, new_today, errors, state):
     border-radius: 3px;
     letter-spacing: 0.05em;
   }}
+  .status-toggle {{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }}
+  .status-option {{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    cursor: pointer;
+  }}
+  .status-option input {{
+    cursor: pointer;
+  }}
+  .status-option span {{
+    color: var(--muted);
+  }}
+  .status-option input:checked + span {{
+    color: var(--signal);
+    font-weight: 700;
+  }}
   .empty {{ color: var(--muted); font-size: 13px; padding: 12px 4px; }}
   .error-banner {{
     margin-top: 32px;
@@ -408,23 +479,102 @@ def build_dashboard(all_matching, new_today, errors, state):
   <div class="wrap">
     <header>
       <div class="eyebrow">Scanning six companies daily</div>
-      <h1>Job Radar</h1>
+      <h1><a href="index.html">Job Radar</a></h1>
       <div class="subtitle">Last checked {now}</div>
+      <nav>
+        {nav_links}
+      </nav>
     </header>
 
-    <h2>New since last check <span class="count">{len(new_today)}</span></h2>
-    {new_section}
-
-    {company_sections}
+    {content}
 
     {error_banner}
 
-    <footer>Tracking {len(state)} previously-seen matching postings across {len(FETCHERS)} companies.</footer>
+    <footer>{footer_text}</footer>
   </div>
+
+  <script>
+    document.querySelectorAll('input[type="radio"]').forEach(input => {{
+      input.addEventListener('change', function() {{
+        const jobId = this.dataset.jobId;
+        const status = this.value;
+        localStorage.setItem('job-status-' + jobId, status);
+      }});
+    }});
+
+    document.querySelectorAll('input[type="radio"]').forEach(input => {{
+      const jobId = input.dataset.jobId;
+      const savedStatus = localStorage.getItem('job-status-' + jobId);
+      if (savedStatus && input.value === savedStatus) {{
+        input.checked = true;
+      }}
+    }});
+  </script>
 </body>
 </html>"""
+
+    # Generate navigation links
+    nav_links = '<a href="index.html" class="active">Home</a>'
+    for company in sorted(FETCHERS.keys()):
+        nav_links += f'<a href="{company.lower()}.html">{company}</a>'
+
+    error_banner = ""
+    if errors:
+        items = "".join(f"<li>{escape(e)}</li>" for e in errors)
+        error_banner = f"""
+        <div class="error-banner">
+          <strong>Some sources didn't load this run:</strong>
+          <ul>{items}</ul>
+        </div>"""
+
+    # Build home page (all new listings)
+    new_section = "".join(job_row(j, is_new=True) for j in new_today) if new_today else \
+        '<p class="empty">No new matching postings since the last check.</p>'
+
+    home_content = f"""
+    <h2>New since last check <span class="count">{len(new_today)}</span></h2>
+    {new_section}"""
+
+    footer_text = f"Tracking {len(state)} previously-seen matching postings across {len(FETCHERS)} companies."
+
+    home_html = base_html_template.format(
+        page_title="",
+        nav_links=nav_links,
+        content=home_content,
+        error_banner=error_banner,
+        footer_text=footer_text
+    )
+
     DASHBOARD_FILE.parent.mkdir(parents=True, exist_ok=True)
-    DASHBOARD_FILE.write_text(html)
+    DASHBOARD_FILE.write_text(home_html)
+
+    # Build individual company pages
+    for company in sorted(FETCHERS.keys()):
+        jobs = sorted(by_company.get(company, []), key=lambda j: j["title"])
+        if not jobs:
+            continue
+
+        new_jobs = [j for j in jobs if j["id"] in new_ids]
+        old_jobs = [j for j in jobs if j["id"] not in new_ids]
+
+        new_rows = "".join(job_row(j, is_new=True) for j in new_jobs) if new_jobs else ""
+        old_rows = "".join(job_row(j, is_new=False) for j in old_jobs)
+
+        new_section_company = f'<h2>New <span class="count">{len(new_jobs)}</span></h2>\n{new_rows}' if new_jobs else ""
+        old_section_company = f'<h2>All Listings <span class="count">{len(old_jobs)}</span></h2>\n{old_rows}' if old_jobs else ""
+
+        company_content = f"{new_section_company}\n{old_section_company}"
+
+        company_html = base_html_template.format(
+            page_title=f" - {company}",
+            nav_links=nav_links,
+            content=company_content,
+            error_banner="",
+            footer_text=footer_text
+        )
+
+        company_file = DASHBOARD_FILE.parent / f"{company.lower()}.html"
+        company_file.write_text(company_html)
 
 
 def main():
@@ -433,6 +583,7 @@ def main():
     all_matching = []
     new_today = []
     errors = []
+    active_job_ids = set()
 
     for company, fetch in FETCHERS.items():
         print(f"Checking {company}...")
@@ -442,18 +593,27 @@ def main():
             print(f"  ! {company} failed: {e}")
             errors.append(f"{company}: {e}")
             continue
-        matched = [p for p in postings if matches_interest(p["title"])]
+        matched = [p for p in postings if matches_interest(p["title"]) and is_us_location(p.get("location", ""))]
         print(f"  {len(postings)} total postings, {len(matched)} match your keywords")
         for job in matched:
             all_matching.append(job)
+            active_job_ids.add(job["id"])
             if job["id"] not in state:
                 state[job["id"]] = {
                     "title": job["title"],
                     "company": job["company"],
                     "url": job["url"],
                     "first_seen": today,
+                    "apply_status": "need_to_apply",
                 }
                 new_today.append(job)
+
+    # Remove stale jobs that are no longer listed
+    stale_ids = set(state.keys()) - active_job_ids
+    if stale_ids:
+        print(f"Removing {len(stale_ids)} stale job(s) no longer active")
+        for job_id in stale_ids:
+            del state[job_id]
 
     save_state(state)
     build_dashboard(all_matching, new_today, errors, state)
