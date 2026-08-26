@@ -542,7 +542,8 @@ def build_dashboard(all_matching, new_today, errors, state):
         nav_links=nav_links,
         content=home_content,
         error_banner=error_banner,
-        footer_text=footer_text
+        footer_text=footer_text,
+        now=now
     )
 
     DASHBOARD_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -570,7 +571,8 @@ def build_dashboard(all_matching, new_today, errors, state):
             nav_links=nav_links,
             content=company_content,
             error_banner="",
-            footer_text=footer_text
+            footer_text=footer_text,
+            now=now
         )
 
         company_file = DASHBOARD_FILE.parent / f"{company.lower()}.html"
