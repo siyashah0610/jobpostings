@@ -64,18 +64,46 @@ def matches_interest(title: str) -> bool:
 
 
 def is_us_location(location: str) -> bool:
-    """Check if a location is in the United States or unknown.
+    """Check if a location is in the United States.
 
     Returns True if:
     - Location is empty/unknown (assume it could be US)
-    - Location contains US state abbreviations or "United States"/"USA"
+    - Location contains US state abbreviations
+    - Location contains "United States" or "USA"
+    - Location is a major US city
 
-    Returns False only if location explicitly indicates non-US country.
+    Returns False if location indicates non-US country.
     """
     if not location:
         return True  # Include jobs without location data
 
     location_upper = location.upper()
+
+    # Check for explicit NON-US country indicators first
+    non_us_countries = {
+        "UK", "UNITED KINGDOM", "ENGLAND", "LONDON",
+        "AUSTRALIA", "SYDNEY", "MELBOURNE",
+        "CANADA", "TORONTO", "VANCOUVER",
+        "JAPAN", "TOKYO", "OSAKA",
+        "SINGAPORE", "HONG KONG",
+        "FRANCE", "PARIS", "LYON",
+        "GERMANY", "BERLIN", "MUNICH", "DACH",
+        "NETHERLANDS", "AMSTERDAM",
+        "IRELAND", "DUBLIN",
+        "SPAIN", "MADRID", "BARCELONA",
+        "ITALY", "ROME", "MILAN",
+        "SOUTH KOREA", "SEOUL",
+        "INDIA", "BANGALORE", "MUMBAI",
+        "ISRAEL", "TEL AVIV",
+        "UAE", "DUBAI", "ABU DHABI",
+        "MEXICO", "BUENOS AIRES", "LATIN AMERICA",
+        "NEW ZEALAND", "AUCKLAND",
+        "EMEA", "APAC", "ASEAN",
+    }
+
+    for country in non_us_countries:
+        if country in location_upper:
+            return False
 
     # US states (abbreviations)
     us_states = {
@@ -87,17 +115,31 @@ def is_us_location(location: str) -> bool:
     }
 
     # Check for explicit US indicators
-    if "UNITED STATES" in location_upper or "USA" in location_upper:
+    if "UNITED STATES" in location_upper or "USA" in location_upper or "US-" in location_upper:
         return True
 
     # Check for state abbreviations (e.g., "CA", "NY")
     for state in us_states:
-        if f", {state}" in location_upper or f" {state}" in location_upper:
+        if f", {state}" in location_upper or f" {state}" in location_upper or f"-{state}" in location_upper:
             return True
 
-    # If location is provided but doesn't match known non-US patterns, include it
-    # (better to be over-inclusive than to filter out US jobs we can't verify)
-    return True
+    # Check for major US cities
+    us_cities = {
+        "SAN FRANCISCO", "LOS ANGELES", "NEW YORK", "SEATTLE", "AUSTIN",
+        "DENVER", "CHICAGO", "BOSTON", "MIAMI", "PORTLAND",
+        "MOUNTAIN VIEW", "PALO ALTO", "SUNNYVALE", "CUPERTINO",
+    }
+
+    for city in us_cities:
+        if city in location_upper:
+            return True
+
+    # Remote or unclear - include if it says "remote" without country
+    if "REMOTE" in location_upper and not any(c in location_upper for c in non_us_countries):
+        return True
+
+    # If we can't determine, exclude to be safe
+    return False
 
 
 # ---------------------------------------------------------------------------
@@ -184,72 +226,51 @@ def fetch_nvidia():
 
 
 def fetch_google():
-    """Best-effort scrape of Google's public careers search-results pages."""
+    """Fetch Google jobs from careers page."""
     jobs = []
-    base = "https://www.google.com/about/careers/applications/jobs/results/"
+    urls = [
+        "https://www.google.com/careers",
+        "https://careers.google.com",
+        "https://www.google.com/about/careers/",
+    ]
 
-    try:
-        for page in range(1, 16):
-            try:
-                r = requests.get(base, params={"page": page, "hl": "en"}, headers=HEADERS, timeout=30)
-                if r.status_code != 200:
-                    break
+    for base_url in urls:
+        try:
+            r = requests.get(base_url, headers=HEADERS, timeout=30)
+            if r.status_code == 200:
                 html = r.text
 
-                # Try multiple patterns for job links (handles different HTML structures)
+                # Look for job titles in various formats
                 patterns = [
-                    r'href="(/about/careers/applications/jobs/results/(\d+)-[^"?#]+)"[^>]*>\s*([^<]{3,200})',
-                    r'"jobTitle"\s*:\s*"([^"]+)".*?"id"\s*:\s*"(\d+)"',
-                    r'data-job-id="([^"]+)"[^>]*>\s*([^<]{3,200})',
+                    r'"title"\s*:\s*"([^"]{5,200})"',
+                    r'<h[2-4][^>]*>\s*([A-Z][^<]{5,150})\s*</h[2-4]>',
+                    r'data-title="([^"]{5,200})"',
                 ]
 
-                found = []
                 for pattern in patterns:
-                    found = re.findall(pattern, html, re.DOTALL | re.IGNORECASE)
-                    if found:
-                        break
+                    for match in re.finditer(pattern, html, re.IGNORECASE):
+                        title = match.group(1).strip()
+                        if len(title) > 5 and not title.startswith("<"):
+                            job_id = f"google-{len(jobs)}"
+                            jobs.append({
+                                "id": job_id,
+                                "company": "Google",
+                                "title": title,
+                                "location": "",
+                                "url": base_url,
+                            })
 
-                if not found:
-                    # If no jobs found on this page, try next page before giving up
-                    continue
-
-                for match in found:
-                    if len(match) == 3:
-                        href, jid, title = match
-                        title = title.strip()
-                        if not title:
-                            continue
-                        jobs.append({
-                            "id": f"google-{jid}",
-                            "company": "Google",
-                            "title": title,
-                            "location": "",
-                            "url": f"https://www.google.com{href}" if href.startswith("/") else href,
-                        })
-                    elif len(match) == 2:
-                        title, jid = match
-                        title = title.strip()
-                        if not title:
-                            continue
-                        jobs.append({
-                            "id": f"google-{jid}",
-                            "company": "Google",
-                            "title": title,
-                            "location": "",
-                            "url": f"https://www.google.com/about/careers/applications/jobs/results/{jid}",
-                        })
-                time.sleep(0.3)
-            except Exception as e:
-                continue
-    except Exception:
-        pass
+                if jobs:
+                    break
+        except Exception:
+            continue
 
     seen, deduped = set(), []
     for j in jobs:
         if j["id"] not in seen:
             seen.add(j["id"])
             deduped.append(j)
-    return deduped
+    return deduped[:100]
 
 
 def fetch_waymo():
@@ -365,9 +386,8 @@ FETCHERS = {
     "Anthropic": fetch_anthropic,
     "OpenAI": fetch_openai,
     "NVIDIA": fetch_nvidia,
-    "Google": fetch_google,
-    "Waymo": fetch_waymo,
-    "Meta": fetch_meta,
+    # Google, Waymo, Meta disabled - they use JS rendering with no job data in initial HTML
+    # Would require Selenium/Playwright headless browser support which is too complex for this workflow
 }
 
 
