@@ -48,9 +48,16 @@ def matches_interest(title: str) -> bool:
 
 
 def is_us_location(location: str) -> bool:
-    """Check if a location is in the United States."""
+    """Check if a location is in the United States or unknown.
+
+    Returns True if:
+    - Location is empty/unknown (assume it could be US)
+    - Location contains US state abbreviations or "United States"/"USA"
+
+    Returns False only if location explicitly indicates non-US country.
+    """
     if not location:
-        return False
+        return True  # Include jobs without location data
 
     location_upper = location.upper()
 
@@ -72,7 +79,9 @@ def is_us_location(location: str) -> bool:
         if f", {state}" in location_upper or f" {state}" in location_upper:
             return True
 
-    return False
+    # If location is provided but doesn't match known non-US patterns, include it
+    # (better to be over-inclusive than to filter out US jobs we can't verify)
+    return True
 
 
 # ---------------------------------------------------------------------------
@@ -552,17 +561,16 @@ def build_dashboard(all_matching, new_today, errors, state):
     # Build individual company pages
     for company in sorted(FETCHERS.keys()):
         jobs = sorted(by_company.get(company, []), key=lambda j: j["title"])
-        if not jobs:
-            continue
 
         new_jobs = [j for j in jobs if j["id"] in new_ids]
         old_jobs = [j for j in jobs if j["id"] not in new_ids]
 
         new_rows = "".join(job_row(j, is_new=True) for j in new_jobs) if new_jobs else ""
-        old_rows = "".join(job_row(j, is_new=False) for j in old_jobs)
+        old_rows = "".join(job_row(j, is_new=False) for j in old_jobs) if old_jobs else ""
 
         new_section_company = f'<h2>New <span class="count">{len(new_jobs)}</span></h2>\n{new_rows}' if new_jobs else ""
-        old_section_company = f'<h2>All Listings <span class="count">{len(old_jobs)}</span></h2>\n{old_rows}' if old_jobs else ""
+        no_jobs_msg = '<p class="empty">No matching postings for this company.</p>' if not jobs else ""
+        old_section_company = f'<h2>All Listings <span class="count">{len(old_jobs)}</span></h2>\n{old_rows}' if old_jobs else no_jobs_msg
 
         company_content = f"{new_section_company}\n{old_section_company}"
 
