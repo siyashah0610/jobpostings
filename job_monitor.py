@@ -31,14 +31,30 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PersonalJobMonitor/1.0)"}
 # This is the main thing you'll want to edit/tune over time.
 # ---------------------------------------------------------------------------
 KEYWORDS = [
+    # Engineering roles
     r"\bsoftware engineer", r"\bswe\b", r"\bbackend\b", r"\bfront[- ]?end\b",
     r"\bfull[- ]?stack\b", r"\bsite reliability\b", r"\bsystems engineer\b",
-    r"\bproduct manager\b", r"\bproduct management\b",
+    r"\bengineer\b",
+    # Product roles
+    r"\bproduct manager\b", r"\bproduct management\b", r"\bproduct\b",
+    # AI/ML roles
     r"\bapplied (ai|scientist)\b", r"\bmachine learning engineer\b", r"\bml engineer\b",
     r"\bai engineer\b", r"\bapplied ml\b", r"\bai product\b",
-    r"\bsolutions? architect\b", r"\bsolutions? engineer\b",
+    # Solutions/Architecture roles
+    r"\bsolutions? architect\b", r"\bsolutions? engineer\b", r"\barchitect\b",
+    # Sales/Account/Business Development
     r"\bsales\b", r"\baccount executive\b", r"\baccount manager\b",
     r"\bbusiness development\b", r"\bgo[- ]to[- ]market\b", r"\bpartnerships?\b",
+    # Strategy roles
+    r"\bstrategy\b", r"\bstrategic\b",
+    # Business/Operations roles
+    r"\bbusiness analyst\b", r"\banalytics?\b", r"\boperations\b", r"\bops\b",
+    r"\bprogram manager\b", r"\bprogram management\b",
+    r"\bmanager\b", r"\bdirector\b",
+    # Finance/Commercial
+    r"\bfinance\b", r"\bcommercial\b",
+    # Marketing
+    r"\bmarketing\b",
 ]
 KEYWORD_RE = re.compile("|".join(KEYWORDS), re.IGNORECASE)
 
