@@ -1,1 +1,2810 @@
-{}
+{
+  "anthropic-4423394008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Growth Account Executive, AI Native",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4423394008"
+  },
+  "anthropic-4461444008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Industries",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4461444008"
+  },
+  "anthropic-4461450008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Account Executive, AI Native",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4461450008"
+  },
+  "anthropic-4572744008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, iOS",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4572744008"
+  },
+  "anthropic-4595463008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Security Software Engineer, Detection & Response Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4595463008"
+  },
+  "anthropic-4778843008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Safeguards ML Infrastructure",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4778843008"
+  },
+  "anthropic-4899511008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Android",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4899511008"
+  },
+  "anthropic-4926242008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, ML Networking",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4926242008"
+  },
+  "anthropic-4931772008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Mid-Market Account Executive, Industries",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4931772008"
+  },
+  "anthropic-4951844008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Safeguards",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4951844008"
+  },
+  "anthropic-4959329008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, State & Local Sales",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4959329008"
+  },
+  "anthropic-4970314008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Infrastructure (Distributed Systems)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4970314008"
+  },
+  "anthropic-4976328008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Manager\u2013 Growth Sales (AI-Native)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4976328008"
+  },
+  "anthropic-4981828008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Research Tools",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4981828008"
+  },
+  "anthropic-5021015008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5021015008"
+  },
+  "anthropic-5026097008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Product Engineer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5026097008"
+  },
+  "anthropic-5057647008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Enterprise Tech",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5057647008"
+  },
+  "anthropic-5063007008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Cybersecurity Products",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5063007008"
+  },
+  "anthropic-5065894008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Claude App Infrastructure",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5065894008"
+  },
+  "anthropic-5073998008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": " Staff Software Engineer, Continuous Integration",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5073998008"
+  },
+  "anthropic-5074908008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Safeguards Infrastructure ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5074908008"
+  },
+  "anthropic-5075093008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Strategic Account Executive, Cybersecurity",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5075093008"
+  },
+  "anthropic-5076109008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5076109008"
+  },
+  "anthropic-5077996008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Mid-Market Account Executive, Tech",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5077996008"
+  },
+  "anthropic-5079916008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Growth Account Executive, Startups",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5079916008"
+  },
+  "anthropic-5082402008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Senior Partner Account Manager \u2013Global Systems Integrator Alliances",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5082402008"
+  },
+  "anthropic-5096041008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Telecommunications",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5096041008"
+  },
+  "anthropic-5096878008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Research Product Manager, Labs",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5096878008"
+  },
+  "anthropic-5097186008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Engineer, Education Labs",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097186008"
+  },
+  "anthropic-5097490008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Safeguards (Verticals)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097490008"
+  },
+  "anthropic-5097742008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Inference",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097742008"
+  },
+  "anthropic-5098025008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Model Performance Software Engineer, Claude Code",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5098025008"
+  },
+  "anthropic-5098092008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineering Manager, Network Security",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5098092008"
+  },
+  "anthropic-5101169008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, AI Reliability Engineering",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101169008"
+  },
+  "anthropic-5101173008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, AI Reliability Engineering",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101173008"
+  },
+  "anthropic-5101378008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Account Executive, Public Sector",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101378008"
+  },
+  "anthropic-5104753008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Financial Services & Insurance",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5104753008"
+  },
+  "anthropic-5104754008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Retail",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5104754008"
+  },
+  "anthropic-5109135008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Strategic Account Executive, Tech",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5109135008"
+  },
+  "anthropic-5110511008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Developer Productivity",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5110511008"
+  },
+  "anthropic-5113224008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, AI Reliability",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5113224008"
+  },
+  "anthropic-5114768008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Data Infrastructure",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5114768008"
+  },
+  "anthropic-5116927008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Technical Evangelist, Startup Ecosystem",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5116927008"
+  },
+  "anthropic-5118189008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, DoW/IC",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5118189008"
+  },
+  "anthropic-5119468008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, People Products",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5119468008"
+  },
+  "anthropic-5123039008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Account Abuse",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5123039008"
+  },
+  "anthropic-5123082008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Management, Research",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5123082008"
+  },
+  "anthropic-5131095008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Startup Partnerships - France & Southern Europe ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5131095008"
+  },
+  "anthropic-5134895008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Senior Staff Software Engineer, API",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5134895008"
+  },
+  "anthropic-5139628008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": " Product Manager, Safeguards Rare Harms",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5139628008"
+  },
+  "anthropic-5146298008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Billing Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5146298008"
+  },
+  "anthropic-5150472008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Inference",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5150472008"
+  },
+  "anthropic-5153377008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Manager, Account Executive - Strategic Sales",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5153377008"
+  },
+  "anthropic-5153924008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Multi-Cloud Growth - Google",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5153924008"
+  },
+  "anthropic-5157847008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5157847008"
+  },
+  "anthropic-5160180008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Federal Partners Sales",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5160180008"
+  },
+  "anthropic-5163060008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Finance & Strategy, GTM - Post Sales ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5163060008"
+  },
+  "anthropic-5164820008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Safeguards (Child Safety)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5164820008"
+  },
+  "anthropic-5171187008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Head of GovTech Sales",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5171187008"
+  },
+  "anthropic-5171950008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Partner Sales Manager, Systems Integrators",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5171950008"
+  },
+  "anthropic-5174743008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Senior Software Engineer, Full-stack",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174743008"
+  },
+  "anthropic-5174747008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Full-stack",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174747008"
+  },
+  "anthropic-5174755008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Backend",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174755008"
+  },
+  "anthropic-5175782008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Manager, Account Executive - Enterprise Sales",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5175782008"
+  },
+  "anthropic-5186067008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Full-Stack Software Engineer, Reinforcement Learning",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5186067008"
+  },
+  "anthropic-5191226008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Research Data Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5191226008"
+  },
+  "anthropic-5192805008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Commercial",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5192805008"
+  },
+  "anthropic-5194670008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Federal Civilian Sales",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5194670008"
+  },
+  "anthropic-5195866008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Management, Human Data Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5195866008"
+  },
+  "anthropic-5196014008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Federal Civilian Sales - Transport & Land",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5196014008"
+  },
+  "anthropic-5196023008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Federal Civilian Sales - Commerce & Interior",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5196023008"
+  },
+  "anthropic-5197538008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Manager of Applied AI Architecture, Enterprise Tech (Cyber)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5197538008"
+  },
+  "anthropic-5203868008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Node Infra",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5203868008"
+  },
+  "anthropic-5205704008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5205704008"
+  },
+  "anthropic-5207540008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Tech",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5207540008"
+  },
+  "anthropic-5211241008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Kubernetes Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5211241008"
+  },
+  "anthropic-5211305008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Kubernetes Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5211305008"
+  },
+  "anthropic-5211498008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Node Infra",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5211498008"
+  },
+  "anthropic-5215052008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "AWS GTM Partnership Lead, Startups",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5215052008"
+  },
+  "anthropic-5219971008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Conglomerate",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5219971008"
+  },
+  "anthropic-5222908008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Partner Solutions Architect, Applied AI",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5222908008"
+  },
+  "anthropic-5225003008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive - Energy & Utilities",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5225003008"
+  },
+  "anthropic-5226540008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Strategic Partner Development, Product Partnerships - Cybersecurity",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5226540008"
+  },
+  "anthropic-5226862008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Digital Natives Business ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5226862008"
+  },
+  "anthropic-5227641008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Security Architect",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5227641008"
+  },
+  "anthropic-5228098008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Economic Mobility Partnerships Manager - Career Pathways",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5228098008"
+  },
+  "anthropic-5229345008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Claude Design",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5229345008"
+  },
+  "anthropic-5229558008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Manager, Startup Partnerships",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5229558008"
+  },
+  "anthropic-5230394008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Site Reliability Engineer, Safeguards ML Infra",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5230394008"
+  },
+  "anthropic-5231496008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff + Sr. Software Engineer, Cloud Inference",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5231496008"
+  },
+  "anthropic-5235692008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Startup Partnerships Lead",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5235692008"
+  },
+  "anthropic-5237973008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Manufacturing",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5237973008"
+  },
+  "anthropic-5238296008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5238296008"
+  },
+  "anthropic-5245851008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff + Senior Software Engineer, Inference",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5245851008"
+  },
+  "anthropic-5247407008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Research Product Manager, Model Behaviors",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5247407008"
+  },
+  "anthropic-5247640008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Claude Code Model Performance ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5247640008"
+  },
+  "anthropic-5250091008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, GRC Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5250091008"
+  },
+  "anthropic-5251671008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Safeguards Evals ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5251671008"
+  },
+  "anthropic-5251866008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Claude Tag",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5251866008"
+  },
+  "anthropic-5257650008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Inference Runtime",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5257650008"
+  },
+  "anthropic-5269583008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Manager, Account Executive - GSIs",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5269583008"
+  },
+  "anthropic-5270442008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Identity & Access Controls",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5270442008"
+  },
+  "anthropic-5277044008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Partnerships Lead Southern Europe",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5277044008"
+  },
+  "anthropic-5277834008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Manager, Applied AI Engineering,  Beneficial Deployments (Life Sciences)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5277834008"
+  },
+  "anthropic-5278230008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Digital Natives Business ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5278230008"
+  },
+  "anthropic-5281348008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Web Product Manager",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5281348008"
+  },
+  "anthropic-5284500008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Strategy & Operations, Applied AI - AMER",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5284500008"
+  },
+  "anthropic-5285557008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff + Senior Software Engineer, Inference Deployment",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5285557008"
+  },
+  "anthropic-5287249008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive - Life Sciences",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5287249008"
+  },
+  "anthropic-5287327008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Salesforce Developer, Partnerships",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5287327008"
+  },
+  "anthropic-5288742008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Enterprise",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5288742008"
+  },
+  "anthropic-5289450008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Enterprise Knowledge Work",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5289450008"
+  },
+  "anthropic-5290360008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Developer Acceleration",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5290360008"
+  },
+  "anthropic-5290468008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Experimentation",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5290468008"
+  },
+  "anthropic-5290838008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Recruiting Solutions Engineer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5290838008"
+  },
+  "anthropic-5291731008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Partner Account Manager",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5291731008"
+  },
+  "anthropic-5300430008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Partnerships ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5300430008"
+  },
+  "anthropic-5301737008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Caching",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5301737008"
+  },
+  "anthropic-5301750008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Databases",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5301750008"
+  },
+  "anthropic-5304425008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Labs: Applied AI",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5304425008"
+  },
+  "anthropic-5305402008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Web Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5305402008"
+  },
+  "anthropic-5310731008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Capacity Engineering",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5310731008"
+  },
+  "anthropic-5324349008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Research (Code) ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5324349008"
+  },
+  "anthropic-5325909008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Financial Fraud",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5325909008"
+  },
+  "anthropic-5341664008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive - FSI",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5341664008"
+  },
+  "anthropic-5342935008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Safeguards Review Tooling",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5342935008"
+  },
+  "anthropic-5357947008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Finance Systems Engineer, Tax",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5357947008"
+  },
+  "anthropic-5363469008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Growth ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5363469008"
+  },
+  "anthropic-5367436008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Environments Infrastructure",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5367436008"
+  },
+  "anthropic-5367585008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Desktop",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5367585008"
+  },
+  "anthropic-5368034008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Enterprise AI Products",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5368034008"
+  },
+  "anthropic-5368040008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Claude Science",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5368040008"
+  },
+  "anthropic-5368166008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, GTM Systems",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5368166008"
+  },
+  "anthropic-5370690008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Code RL",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5370690008"
+  },
+  "anthropic-5379140008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Safeguards Data ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5379140008"
+  },
+  "anthropic-5379806008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Strategic Account Executive, Industries",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5379806008"
+  },
+  "anthropic-5383114008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Privacy",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383114008"
+  },
+  "anthropic-5383335008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Enterprise Tech",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383335008"
+  },
+  "anthropic-5383610008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Claude Code",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383610008"
+  },
+  "anthropic-5385998008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff + Senior Software Engineer, Inference",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385998008"
+  },
+  "anthropic-5386182008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, New Markets and Monetization",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5386182008"
+  },
+  "anthropic-5386971008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Front End Engineer, Marketing",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5386971008"
+  },
+  "anthropic-5387083008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Infrastructure (Distributed Systems)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387083008"
+  },
+  "anthropic-5387754008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Manager, Applied AI Architect, Enterprise Tech",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387754008"
+  },
+  "anthropic-5387827008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Startups",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387827008"
+  },
+  "anthropic-5388612008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Infrastructure, Interpretability",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5388612008"
+  },
+  "anthropic-5389305008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff Software Engineer, Education",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5389305008"
+  },
+  "anthropic-5390022008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Strategic Partner Development, Data & Product Partnerships \u2013 Beneficial Deployments",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390022008"
+  },
+  "anthropic-5390028008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Strategic Partner Development, Product Partnerships \u2013 Semiconductors",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390028008"
+  },
+  "anthropic-5390728008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Finance Systems Engineer, Finance and Strategy",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390728008"
+  },
+  "anthropic-5390735008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390735008"
+  },
+  "anthropic-5390742008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390742008"
+  },
+  "anthropic-5390746008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390746008"
+  },
+  "anthropic-5390750008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Partnerships",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390750008"
+  },
+  "anthropic-5390754008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Enterprise",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008"
+  },
+  "anthropic-5390765008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Industries",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390765008"
+  },
+  "anthropic-5390778008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Industries ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390778008"
+  },
+  "anthropic-5390787008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Partnerships",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390787008"
+  },
+  "anthropic-5390795008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Enterprise",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390795008"
+  },
+  "anthropic-5390799008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390799008"
+  },
+  "anthropic-5390865008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Manager of Applied AI Architecture, Commercial",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390865008"
+  },
+  "anthropic-5390877008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Public Sector (National Security)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390877008"
+  },
+  "anthropic-5390890008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Manager Applied AI Architecture, Healthcare & Life Sciences",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390890008"
+  },
+  "anthropic-5390894008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Manager Applied AI Architecture, Financial Services",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390894008"
+  },
+  "anthropic-5390960008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Sales Leader Enablement",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390960008"
+  },
+  "anthropic-5390966008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "AI Engineer, GTM Claudification ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390966008"
+  },
+  "anthropic-5391012008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Pre-Sales Program Lead, Forward Deployed Engineering",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391012008"
+  },
+  "anthropic-5391151008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "AI Operations Engineer, Partnerships",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391151008"
+  },
+  "anthropic-5391180008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "AWS GTM Partnership Lead, Enterprise",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391180008"
+  },
+  "anthropic-5391191008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Strategic Business Development Lead",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391191008"
+  },
+  "anthropic-5391207008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Head of Partnerships, Japan",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391207008"
+  },
+  "anthropic-5391211008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Partnerships Business Operations Manager",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391211008"
+  },
+  "anthropic-5391219008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "AWS Partnerships Lead, DACH",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391219008"
+  },
+  "anthropic-5391233008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Senior Partner Sales Manager, Systems Integrators - EMEA & North",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391233008"
+  },
+  "anthropic-5391237008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Partner Account Manager - Spain, Italy & MEA",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391237008"
+  },
+  "anthropic-5391241008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Partner Account Manager, DACH",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391241008"
+  },
+  "anthropic-5391289008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Insurance",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391289008"
+  },
+  "anthropic-5391297008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Financial Services ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391297008"
+  },
+  "anthropic-5391301008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive, Industries",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391301008"
+  },
+  "anthropic-5391309008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Growth Account Executive, Startups",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391309008"
+  },
+  "anthropic-5391322008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive - Industries Generalist",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391322008"
+  },
+  "anthropic-5391336008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive - Retail/CPG",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391336008"
+  },
+  "anthropic-5391344008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Sales Director, Enterprise",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391344008"
+  },
+  "anthropic-5391364008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive - Digital Native Business",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391364008"
+  },
+  "anthropic-5391368008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Startup Account Executive",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391368008"
+  },
+  "anthropic-5391372008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Enterprise Account Executive - Industries Generalist (ASEAN)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391372008"
+  },
+  "anthropic-5391376008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Account Executive - DNB",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391376008"
+  },
+  "anthropic-5391381008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Account Executive - Public Sector (ASEAN)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391381008"
+  },
+  "anthropic-5391488008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Head of State and Local Government Sales",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391488008"
+  },
+  "anthropic-5391499008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Canada Public Sector Account Executive",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391499008"
+  },
+  "anthropic-5391504008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Head of National Security Sales (DoW/IC)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391504008"
+  },
+  "anthropic-5392335008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Platform Ecosystem",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392335008"
+  },
+  "anthropic-5392593008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Scaled Sales Lead, Beneficial Deployments",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392593008"
+  },
+  "anthropic-5393452008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Public Sector",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5393452008"
+  },
+  "anthropic-5393526008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Cybersecurity ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5393526008"
+  },
+  "anthropic-5394943008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Product Sandboxing",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5394943008"
+  },
+  "anthropic-5394948008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Platform Connectivity",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5394948008"
+  },
+  "anthropic-5395767008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Claude Managed Agents",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5395767008"
+  },
+  "anthropic-5396186008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Business Development Representative",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5396186008"
+  },
+  "anthropic-5396384008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "IT Systems Engineer, Mobile Client Platform Engineer ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5396384008"
+  },
+  "anthropic-5397005008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Platform Distribution",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397005008"
+  },
+  "anthropic-5397131008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Platform Portability ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397131008"
+  },
+  "anthropic-5397737008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Business Technology",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397737008"
+  },
+  "anthropic-5397741008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Business Technology",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397741008"
+  },
+  "anthropic-5398218008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Developer Experience",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398218008"
+  },
+  "anthropic-5398227008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff+ Software Engineer, Auth & Identity",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398227008"
+  },
+  "anthropic-5400012008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Staff + Sr. Software Engineer, Scaling",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5400012008"
+  },
+  "anthropic-5400138008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Account Executive, Startups",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5400138008"
+  },
+  "anthropic-5400153008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Business Technology",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5400153008"
+  },
+  "anthropic-5400160008": {
+    "company": "Anthropic",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Business Technology",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5400160008"
+  },
+  "nvidia-/job/Australia-Remote/Solutions-Architect---DevOps_JR2015236": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Solutions Architect - DevOps",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Australia-Remote/Solutions-Architect---DevOps_JR2015236"
+  },
+  "nvidia-/job/China-Shanghai/Applied-AI-Engineer---Silicon-Co-Design-Group_JR2023526": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer - Silicon Co-Design Group",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Applied-AI-Engineer---Silicon-Co-Design-Group_JR2023526"
+  },
+  "nvidia-/job/Israel-Yokneam/Senior-Site-Reliability-Engineer_JR2024251": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Senior Site Reliability Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Site-Reliability-Engineer_JR2024251"
+  },
+  "nvidia-/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2023247-1": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Senior Software Engineer, Network System Validation",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2023247-1"
+  },
+  "nvidia-/job/US-CA-Remote/Senior-Product-Manager--HPC-and-AI-for-Physics_JR2023471": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Senior Product Manager, HPC and AI for Physics",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Product-Manager--HPC-and-AI-for-Physics_JR2023471"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Account-Manager--Healthcare-MedTech_JR2021456": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Account Manager, Healthcare MedTech",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Account-Manager--Healthcare-MedTech_JR2021456"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Principal Software Engineer \u2013 CSP Engagements",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---Infrastructure_JR2024352-1": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Principal Software Engineer \u2013 Infrastructure",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Infrastructure_JR2024352-1"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer_JR2024363": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Principal Software Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer_JR2024363"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Product-Manager--AI-for-Quantum_JR2023411": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, AI for Quantum",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Manager--AI-for-Quantum_JR2023411"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Senior Linux Kernel Systems Software Engineer \u2013 CSP Engagements",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Manager--Software-Engineering---RL-Post-Training-Frameworks_JR2024140": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Senior Manager, Software Engineering - RL Post-Training Frameworks",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Software-Engineering---RL-Post-Training-Frameworks_JR2024140"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer---AV-Platform_JR2023594": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Senior Software Engineer - AV Platform",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---AV-Platform_JR2023594"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2020967-1": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Senior Software Engineer, DGX Cloud Orchestration",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2020967-1"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2022921": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Senior Software Engineer, DGX Cloud Orchestration",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2022921"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Senior Systems Software Engineer, Data Center Platform Enablement",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2024097": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Performance Lab and Tools",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2024097"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "System Software Engineer - Performance Verification Infrastructure",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "System Software Engineer, UEFI Firmware",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314"
+  },
+  "nvidia-/job/US-IL-Champaign/System-Software-Engineer--HPC-Performance_JR2023599": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "System Software Engineer, HPC Performance",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-IL-Champaign/System-Software-Engineer--HPC-Performance_JR2023599"
+  },
+  "nvidia-/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Senior Software Engineer, Core Infrastructure Services - DGX Cloud",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552"
+  },
+  "nvidia-/job/US-WA-Redmond/Senior-Software-Engineer--Developer-Tools-for-Cloud_JR2011154": {
+    "company": "NVIDIA",
+    "first_seen": "2026-08-26",
+    "title": "Senior Software Engineer, Developer Tools for Cloud",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Senior-Software-Engineer--Developer-Tools-for-Cloud_JR2011154"
+  },
+  "openai-00207abc-49b7-465c-a219-f7c1140f8047": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Forward Deployed Software Engineer - SF",
+    "url": "https://jobs.ashbyhq.com/openai/00207abc-49b7-465c-a219-f7c1140f8047"
+  },
+  "openai-01091aed-427d-4e10-8cdb-fb500cf55bb9": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Enterprise",
+    "url": "https://jobs.ashbyhq.com/openai/01091aed-427d-4e10-8cdb-fb500cf55bb9"
+  },
+  "openai-0199ebc8-4720-40b1-b692-9189246776df": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Deal Desk Lead, Marketplaces & Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/0199ebc8-4720-40b1-b692-9189246776df"
+  },
+  "openai-0432731c-f229-476e-92b6-d53491e79096": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Agent Productivity",
+    "url": "https://jobs.ashbyhq.com/openai/0432731c-f229-476e-92b6-d53491e79096"
+  },
+  "openai-04435c05-7a05-4802-894d-c173327fbac8": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer",
+    "url": "https://jobs.ashbyhq.com/openai/04435c05-7a05-4802-894d-c173327fbac8"
+  },
+  "openai-05a8cae8-81bd-4f7b-bc48-41ef1bd67e5d": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Sensitive Deployments",
+    "url": "https://jobs.ashbyhq.com/openai/05a8cae8-81bd-4f7b-bc48-41ef1bd67e5d"
+  },
+  "openai-06ec3598-8028-4a17-9654-1b2f21cbdd41": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Digital Natives",
+    "url": "https://jobs.ashbyhq.com/openai/06ec3598-8028-4a17-9654-1b2f21cbdd41"
+  },
+  "openai-071511ff-940e-46b9-8c21-58b2a6ac4b7a": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Strategic Partner Manager, Monetization Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/071511ff-940e-46b9-8c21-58b2a6ac4b7a"
+  },
+  "openai-07153f7c-7e8b-4283-a879-cb07a224e083": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Privacy Engineering",
+    "url": "https://jobs.ashbyhq.com/openai/07153f7c-7e8b-4283-a879-cb07a224e083"
+  },
+  "openai-099dd6af-b017-4a60-85d5-4c79da3a9ead": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Software Engineer - Codex for Finance",
+    "url": "https://jobs.ashbyhq.com/openai/099dd6af-b017-4a60-85d5-4c79da3a9ead"
+  },
+  "openai-0b212a4a-6709-4da8-b59d-283a9bbf812e": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Ad Formats",
+    "url": "https://jobs.ashbyhq.com/openai/0b212a4a-6709-4da8-b59d-283a9bbf812e"
+  },
+  "openai-0ed5f6c7-3977-4da9-9961-202fe76de456": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Digital Natives",
+    "url": "https://jobs.ashbyhq.com/openai/0ed5f6c7-3977-4da9-9961-202fe76de456"
+  },
+  "openai-0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Financial Engineering",
+    "url": "https://jobs.ashbyhq.com/openai/0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc"
+  },
+  "openai-0f887fe6-39f4-44f6-8ee5-230c3002f0d7": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Private Computing",
+    "url": "https://jobs.ashbyhq.com/openai/0f887fe6-39f4-44f6-8ee5-230c3002f0d7"
+  },
+  "openai-103d7043-28ec-4639-9c8d-0910083a1755": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Senior Manager, Order to Cash \u2014 AI Products & Cloud Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/103d7043-28ec-4639-9c8d-0910083a1755"
+  },
+  "openai-118b71ad-0daa-497d-9061-68e90ea03368": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Privacy Engineering (Lawful Access) ",
+    "url": "https://jobs.ashbyhq.com/openai/118b71ad-0daa-497d-9061-68e90ea03368"
+  },
+  "openai-11aaa7ee-21b6-431f-99b1-42c4b830949e": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Digital Natives",
+    "url": "https://jobs.ashbyhq.com/openai/11aaa7ee-21b6-431f-99b1-42c4b830949e"
+  },
+  "openai-11c51b12-3ba0-4a7a-a0d2-ed0661324dc3": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Capacity Systems Software Engineer",
+    "url": "https://jobs.ashbyhq.com/openai/11c51b12-3ba0-4a7a-a0d2-ed0661324dc3"
+  },
+  "openai-12342ebb-dcd4-45e2-b875-fc5447fdb7d8": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Cloud Infrastructure ",
+    "url": "https://jobs.ashbyhq.com/openai/12342ebb-dcd4-45e2-b875-fc5447fdb7d8"
+  },
+  "openai-1328e781-c66c-4f71-8eb0-6c684273833b": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Cyber | Tokyo",
+    "url": "https://jobs.ashbyhq.com/openai/1328e781-c66c-4f71-8eb0-6c684273833b"
+  },
+  "openai-13995549-e8cc-498f-9eaa-1869067ac35b": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, RL Training Infra",
+    "url": "https://jobs.ashbyhq.com/openai/13995549-e8cc-498f-9eaa-1869067ac35b"
+  },
+  "openai-17daedbd-b3fb-4e8c-a17c-8bbc9ec1d0b5": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Productivity - Networking",
+    "url": "https://jobs.ashbyhq.com/openai/17daedbd-b3fb-4e8c-a17c-8bbc9ec1d0b5"
+  },
+  "openai-1953efa7-5c1f-4878-b4cb-926cd35aafdb": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Enterprise",
+    "url": "https://jobs.ashbyhq.com/openai/1953efa7-5c1f-4878-b4cb-926cd35aafdb"
+  },
+  "openai-1a28b2f0-76f4-4fb3-b224-e0ab9f60cee0": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Strategic Sourcing Leader, Go-to-Market",
+    "url": "https://jobs.ashbyhq.com/openai/1a28b2f0-76f4-4fb3-b224-e0ab9f60cee0"
+  },
+  "openai-1b268692-70d8-46c2-a347-2f7705b5c174": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Machine Learning Engineer, Multimodal Perception and Authentication",
+    "url": "https://jobs.ashbyhq.com/openai/1b268692-70d8-46c2-a347-2f7705b5c174"
+  },
+  "openai-1b86ec8e-fe34-452d-bbff-6619579e7385": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Ads Conversion Measurement",
+    "url": "https://jobs.ashbyhq.com/openai/1b86ec8e-fe34-452d-bbff-6619579e7385"
+  },
+  "openai-1ba666a4-0be2-4bd0-ad51-39ed7164c241": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Quality & Developer Tools | Consumer Devices",
+    "url": "https://jobs.ashbyhq.com/openai/1ba666a4-0be2-4bd0-ad51-39ed7164c241"
+  },
+  "openai-1bb1f351-41a2-43a5-bac1-259859886cb3": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, GTM Growth Engineering",
+    "url": "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3"
+  },
+  "openai-1c48f39f-60ea-4636-87ed-8b4b4f5243e5": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Systems Software Engineer, Security, First Party Hardware",
+    "url": "https://jobs.ashbyhq.com/openai/1c48f39f-60ea-4636-87ed-8b4b4f5243e5"
+  },
+  "openai-1dc05fc7-ceb7-4827-a905-9d1beb77a4a0": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Camera Software Engineer, Consumer Devices",
+    "url": "https://jobs.ashbyhq.com/openai/1dc05fc7-ceb7-4827-a905-9d1beb77a4a0"
+  },
+  "openai-1e28e1f0-2580-46d9-b5ba-55c77d706f81": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Order Management & Billing Lead \u2014 Cloud Marketplaces & Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/1e28e1f0-2580-46d9-b5ba-55c77d706f81"
+  },
+  "openai-1e4e9985-babf-4bd9-8fe8-a2016250780d": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Security Observability",
+    "url": "https://jobs.ashbyhq.com/openai/1e4e9985-babf-4bd9-8fe8-a2016250780d"
+  },
+  "openai-1faee5e7-3b2f-4d8c-9a6f-ff0f2a4a42a7": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Resilience Engineering",
+    "url": "https://jobs.ashbyhq.com/openai/1faee5e7-3b2f-4d8c-9a6f-ff0f2a4a42a7"
+  },
+  "openai-1fec5ecd-5b7b-45bc-bc8c-ac7184565551": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Core Network Engineering",
+    "url": "https://jobs.ashbyhq.com/openai/1fec5ecd-5b7b-45bc-bc8c-ac7184565551"
+  },
+  "openai-202eb061-23d7-4a58-80c8-bc3b41e56d39": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Build Systems / CI",
+    "url": "https://jobs.ashbyhq.com/openai/202eb061-23d7-4a58-80c8-bc3b41e56d39"
+  },
+  "openai-20f525b7-f958-4c95-a055-f914ab3adb95": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "System Software Engineer, Consumer Devices",
+    "url": "https://jobs.ashbyhq.com/openai/20f525b7-f958-4c95-a055-f914ab3adb95"
+  },
+  "openai-21229750-8bd1-4134-a20e-2a8922b88806": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Systems Software Engineer, Management Plane",
+    "url": "https://jobs.ashbyhq.com/openai/21229750-8bd1-4134-a20e-2a8922b88806"
+  },
+  "openai-21bfde35-ffec-42d2-a2c6-8a03dad789d5": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Core Services",
+    "url": "https://jobs.ashbyhq.com/openai/21bfde35-ffec-42d2-a2c6-8a03dad789d5"
+  },
+  "openai-2226c39d-371b-4dec-bf60-2d76dbe4c445": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer",
+    "url": "https://jobs.ashbyhq.com/openai/2226c39d-371b-4dec-bf60-2d76dbe4c445"
+  },
+  "openai-23b158fe-709e-4bf5-856c-d10953d32f60": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer - Privacy & Compliance",
+    "url": "https://jobs.ashbyhq.com/openai/23b158fe-709e-4bf5-856c-d10953d32f60"
+  },
+  "openai-2881fcec-3ab8-480c-813f-14769dcbf963": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Sales Strategy & Operations - Central ",
+    "url": "https://jobs.ashbyhq.com/openai/2881fcec-3ab8-480c-813f-14769dcbf963"
+  },
+  "openai-28cd6fe2-4096-426b-8b08-52a66458e2c6": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect",
+    "url": "https://jobs.ashbyhq.com/openai/28cd6fe2-4096-426b-8b08-52a66458e2c6"
+  },
+  "openai-29c2c171-fb63-4985-9ac5-229b2ff5ced6": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Cloud Infrastructure ",
+    "url": "https://jobs.ashbyhq.com/openai/29c2c171-fb63-4985-9ac5-229b2ff5ced6"
+  },
+  "openai-29f15e50-1611-4256-afad-03b7df0b7aa7": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Cyber",
+    "url": "https://jobs.ashbyhq.com/openai/29f15e50-1611-4256-afad-03b7df0b7aa7"
+  },
+  "openai-2b5e8e15-7952-4170-a927-2ad68e318ed6": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Database Systems",
+    "url": "https://jobs.ashbyhq.com/openai/2b5e8e15-7952-4170-a927-2ad68e318ed6"
+  },
+  "openai-2bf44c13-a463-4ec7-b152-b8367075246c": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Trainium ",
+    "url": "https://jobs.ashbyhq.com/openai/2bf44c13-a463-4ec7-b152-b8367075246c"
+  },
+  "openai-2cba0d45-7a4f-4f38-ac73-3f8633bf0349": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Developer Productivity",
+    "url": "https://jobs.ashbyhq.com/openai/2cba0d45-7a4f-4f38-ac73-3f8633bf0349"
+  },
+  "openai-2d7f1028-ce9b-49c7-acc8-782714ca1cf4": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Software Engineer, Agent Enablement",
+    "url": "https://jobs.ashbyhq.com/openai/2d7f1028-ce9b-49c7-acc8-782714ca1cf4"
+  },
+  "openai-2ded7835-eadb-4b36-8500-ca91df5ddb4a": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Government Partnerships Communications Lead",
+    "url": "https://jobs.ashbyhq.com/openai/2ded7835-eadb-4b36-8500-ca91df5ddb4a"
+  },
+  "openai-3229b152-015f-49ad-9921-9c9de95570c8": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Enterprise Verticals",
+    "url": "https://jobs.ashbyhq.com/openai/3229b152-015f-49ad-9921-9c9de95570c8"
+  },
+  "openai-3254f6a7-6353-4a77-beec-f37b832c99ae": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Digital Natives",
+    "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae"
+  },
+  "openai-33b8effb-b048-4934-a279-87fff192a330": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Core Models",
+    "url": "https://jobs.ashbyhq.com/openai/33b8effb-b048-4934-a279-87fff192a330"
+  },
+  "openai-340c0c22-8d8f-4232-b17e-f642b64c25c3": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Collective Communication",
+    "url": "https://jobs.ashbyhq.com/openai/340c0c22-8d8f-4232-b17e-f642b64c25c3"
+  },
+  "openai-348ac6bf-a5c3-43d1-a14a-5f1a3c8d90fa": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Monetization ML Infrastructure",
+    "url": "https://jobs.ashbyhq.com/openai/348ac6bf-a5c3-43d1-a14a-5f1a3c8d90fa"
+  },
+  "openai-3544fb7b-669b-43e3-8828-94972620bac7": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Infrastructure, Consumer Devices",
+    "url": "https://jobs.ashbyhq.com/openai/3544fb7b-669b-43e3-8828-94972620bac7"
+  },
+  "openai-371afd71-386b-40a0-be0a-e90f010b7bd0": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "APAC Sales Development Leader",
+    "url": "https://jobs.ashbyhq.com/openai/371afd71-386b-40a0-be0a-e90f010b7bd0"
+  },
+  "openai-37d6637c-48aa-48c7-8665-ec5abfcf32d0": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Cyber Defense and Blue Team",
+    "url": "https://jobs.ashbyhq.com/openai/37d6637c-48aa-48c7-8665-ec5abfcf32d0"
+  },
+  "openai-38e3c4bf-a632-405e-9619-b87382ca2472": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Software Engineer, GTM Growth Engineering",
+    "url": "https://jobs.ashbyhq.com/openai/38e3c4bf-a632-405e-9619-b87382ca2472"
+  },
+  "openai-39a709f3-6e9e-45e9-94eb-43a1c2aaaeaf": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Computer Use & Frontier Interfaces",
+    "url": "https://jobs.ashbyhq.com/openai/39a709f3-6e9e-45e9-94eb-43a1c2aaaeaf"
+  },
+  "openai-39e06ef9-5e62-425d-81e2-e8690188011f": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Software Engineer, ChatGPT Finances",
+    "url": "https://jobs.ashbyhq.com/openai/39e06ef9-5e62-425d-81e2-e8690188011f"
+  },
+  "openai-3a64da1c-bf29-4e52-baa3-a8f35f16ff74": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Digital Natives",
+    "url": "https://jobs.ashbyhq.com/openai/3a64da1c-bf29-4e52-baa3-a8f35f16ff74"
+  },
+  "openai-3b634f98-b639-4cfa-a151-43e13d99ce45": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Partner Director, GTM Cloud Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/3b634f98-b639-4cfa-a151-43e13d99ce45"
+  },
+  "openai-3c67f712-697d-48d8-b05c-01be896e61da": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Scaled Abuse",
+    "url": "https://jobs.ashbyhq.com/openai/3c67f712-697d-48d8-b05c-01be896e61da"
+  },
+  "openai-3cb8b1c4-b24c-4a5b-be9c-3f47a4161e3c": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Messenger Integrations",
+    "url": "https://jobs.ashbyhq.com/openai/3cb8b1c4-b24c-4a5b-be9c-3f47a4161e3c"
+  },
+  "openai-3ce0949d-b028-44f1-983c-446bb7bb1881": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Ads Monetization, Revenue Platform",
+    "url": "https://jobs.ashbyhq.com/openai/3ce0949d-b028-44f1-983c-446bb7bb1881"
+  },
+  "openai-3d064454-c0c3-4225-bc2c-6d8c0f8735b2": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Backend Software Engineer (Evals) ",
+    "url": "https://jobs.ashbyhq.com/openai/3d064454-c0c3-4225-bc2c-6d8c0f8735b2"
+  },
+  "openai-4070d52e-0263-4cd5-9107-052b4ecc1209": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, API Multicloud",
+    "url": "https://jobs.ashbyhq.com/openai/4070d52e-0263-4cd5-9107-052b4ecc1209"
+  },
+  "openai-40ed6975-ef61-4807-b748-37c2fa2b76c7": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Foundations Search",
+    "url": "https://jobs.ashbyhq.com/openai/40ed6975-ef61-4807-b748-37c2fa2b76c7"
+  },
+  "openai-41d9d129-2e58-4ad3-be81-2e5096f4da4d": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Data Acquisition ",
+    "url": "https://jobs.ashbyhq.com/openai/41d9d129-2e58-4ad3-be81-2e5096f4da4d"
+  },
+  "openai-43174eb6-0ffe-4744-9323-c7969e7ea2e1": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Backend Software Engineer, GTM Innovation",
+    "url": "https://jobs.ashbyhq.com/openai/43174eb6-0ffe-4744-9323-c7969e7ea2e1"
+  },
+  "openai-4349f80b-3518-4e4d-b9eb-3e5e9b490cc7": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Platform Systems",
+    "url": "https://jobs.ashbyhq.com/openai/4349f80b-3518-4e4d-b9eb-3e5e9b490cc7"
+  },
+  "openai-44d19f5f-a5da-4226-9d1a-0147604773eb": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Enterprise",
+    "url": "https://jobs.ashbyhq.com/openai/44d19f5f-a5da-4226-9d1a-0147604773eb"
+  },
+  "openai-460b4295-3803-4dda-983d-3b0fea0b0fc4": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Habitat (Online Data)",
+    "url": "https://jobs.ashbyhq.com/openai/460b4295-3803-4dda-983d-3b0fea0b0fc4"
+  },
+  "openai-4762783e-61e1-4d36-af1d-8dee3c5f70e2": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer - Tokyo",
+    "url": "https://jobs.ashbyhq.com/openai/4762783e-61e1-4d36-af1d-8dee3c5f70e2"
+  },
+  "openai-4a13c764-18c3-4076-ac87-29e05491be07": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Machine Learning Engineer, Distributed Data Systems - Robotics",
+    "url": "https://jobs.ashbyhq.com/openai/4a13c764-18c3-4076-ac87-29e05491be07"
+  },
+  "openai-4c0a6cb6-d365-4e5b-bdff-c093d951026d": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, API Enterprise Controls",
+    "url": "https://jobs.ashbyhq.com/openai/4c0a6cb6-d365-4e5b-bdff-c093d951026d"
+  },
+  "openai-4d14449e-5e7f-45d4-b103-8776a6c87086": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Inference - Multi Modal",
+    "url": "https://jobs.ashbyhq.com/openai/4d14449e-5e7f-45d4-b103-8776a6c87086"
+  },
+  "openai-4d6a5951-9838-434c-830a-22cb938ea228": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Research - Human Data",
+    "url": "https://jobs.ashbyhq.com/openai/4d6a5951-9838-434c-830a-22cb938ea228"
+  },
+  "openai-50bf08a4-21ae-4966-9ab1-fb6e7b947374": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Director, Technical Accounting , Revenue & Strategic Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/50bf08a4-21ae-4966-9ab1-fb6e7b947374"
+  },
+  "openai-52c72cb9-7c44-4cba-b440-e05262a38491": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Engineer, Intelligence Systems",
+    "url": "https://jobs.ashbyhq.com/openai/52c72cb9-7c44-4cba-b440-e05262a38491"
+  },
+  "openai-533c0fc9-b773-476d-9f96-a0528efbab0e": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Forward Deployed Software Engineer - NYC",
+    "url": "https://jobs.ashbyhq.com/openai/533c0fc9-b773-476d-9f96-a0528efbab0e"
+  },
+  "openai-56e699e0-421f-40d1-aad1-20cf6609794f": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Strategic Finance, B2B Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/56e699e0-421f-40d1-aad1-20cf6609794f"
+  },
+  "openai-56fceb8e-589b-410e-8b21-24f9945ccb9d": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Digital Natives (Strategics) ",
+    "url": "https://jobs.ashbyhq.com/openai/56fceb8e-589b-410e-8b21-24f9945ccb9d"
+  },
+  "openai-57551641-208c-48d9-bfb8-9a298d7e7510": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Fleet Hardware Health",
+    "url": "https://jobs.ashbyhq.com/openai/57551641-208c-48d9-bfb8-9a298d7e7510"
+  },
+  "openai-577e6673-0a4a-491b-9a0d-facbdd3bdf3c": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Codex Core Agent",
+    "url": "https://jobs.ashbyhq.com/openai/577e6673-0a4a-491b-9a0d-facbdd3bdf3c"
+  },
+  "openai-57cfe1d3-27b6-4761-909c-fec7829e9227": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect - Tokyo",
+    "url": "https://jobs.ashbyhq.com/openai/57cfe1d3-27b6-4761-909c-fec7829e9227"
+  },
+  "openai-5953fed7-1466-4e90-94c9-43716a55e032": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Learning",
+    "url": "https://jobs.ashbyhq.com/openai/5953fed7-1466-4e90-94c9-43716a55e032"
+  },
+  "openai-5a4eed17-29d5-41cb-856e-09bfdaffe017": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Ads Manager",
+    "url": "https://jobs.ashbyhq.com/openai/5a4eed17-29d5-41cb-856e-09bfdaffe017"
+  },
+  "openai-5acf4854-1d42-40ca-bff8-4f6f04cdce68": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Machine Learning Engineer, API Multicloud",
+    "url": "https://jobs.ashbyhq.com/openai/5acf4854-1d42-40ca-bff8-4f6f04cdce68"
+  },
+  "openai-5c3a17db-62f1-4145-93b0-2f207d4d4af8": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Digital Natives",
+    "url": "https://jobs.ashbyhq.com/openai/5c3a17db-62f1-4145-93b0-2f207d4d4af8"
+  },
+  "openai-5e4ed6d1-2417-4bf5-bae0-905931c488e3": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Platform Systems",
+    "url": "https://jobs.ashbyhq.com/openai/5e4ed6d1-2417-4bf5-bae0-905931c488e3"
+  },
+  "openai-5ebd5f66-75db-4a96-8d39-babc14f1c582": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Software Engineer, Codex",
+    "url": "https://jobs.ashbyhq.com/openai/5ebd5f66-75db-4a96-8d39-babc14f1c582"
+  },
+  "openai-5ed99d32-eed1-4679-b7b4-037de073e57c": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Engineer, Full Stack - Agents",
+    "url": "https://jobs.ashbyhq.com/openai/5ed99d32-eed1-4679-b7b4-037de073e57c"
+  },
+  "openai-621bb104-9daa-4c9e-949a-03d5730334e8": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, ChatGPT Infrastructure",
+    "url": "https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8"
+  },
+  "openai-633d5574-92e4-4327-9783-7ea831223dea": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Frontier Systems - Power Management",
+    "url": "https://jobs.ashbyhq.com/openai/633d5574-92e4-4327-9783-7ea831223dea"
+  },
+  "openai-64f9b8d6-3912-42c0-8fc0-49359d8a6c9c": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Partnerships Lead, India",
+    "url": "https://jobs.ashbyhq.com/openai/64f9b8d6-3912-42c0-8fc0-49359d8a6c9c"
+  },
+  "openai-66288824-8b77-4774-bc57-6825d3e6221e": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Software Engineer, API Experience ",
+    "url": "https://jobs.ashbyhq.com/openai/66288824-8b77-4774-bc57-6825d3e6221e"
+  },
+  "openai-66b7c776-aa50-4e86-aec1-5c8e07868522": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Support Program Manager, Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/66b7c776-aa50-4e86-aec1-5c8e07868522"
+  },
+  "openai-68b1e4ba-da3f-4712-ad14-8c12ebaa28a4": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Senior Counsel, AI Product (Enterprise/API)",
+    "url": "https://jobs.ashbyhq.com/openai/68b1e4ba-da3f-4712-ad14-8c12ebaa28a4"
+  },
+  "openai-6b47238e-025a-4350-b270-2f3564002fcc": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Software Engineer, ChatGPT ImageGen",
+    "url": "https://jobs.ashbyhq.com/openai/6b47238e-025a-4350-b270-2f3564002fcc"
+  },
+  "openai-6c552323-f0bd-4756-a5fb-db2cda70173f": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Principal Software Engineer, Codex Cyber",
+    "url": "https://jobs.ashbyhq.com/openai/6c552323-f0bd-4756-a5fb-db2cda70173f"
+  },
+  "openai-6c6c1ace-12d6-48f0-88f0-488ff8521571": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "IT Solutions Engineer",
+    "url": "https://jobs.ashbyhq.com/openai/6c6c1ace-12d6-48f0-88f0-488ff8521571"
+  },
+  "openai-6d403ec9-d5d3-4754-9092-8fd5e659562a": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Productivity - Model Performance",
+    "url": "https://jobs.ashbyhq.com/openai/6d403ec9-d5d3-4754-9092-8fd5e659562a"
+  },
+  "openai-6d9925f4-3d0a-4710-8304-032d0080d12d": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Senior Software Engineer - Research Platform, Consumer Devices",
+    "url": "https://jobs.ashbyhq.com/openai/6d9925f4-3d0a-4710-8304-032d0080d12d"
+  },
+  "openai-70aaaafa-fe2f-4409-9a72-c0faf50d7d01": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer - Data Aquisition (systems)",
+    "url": "https://jobs.ashbyhq.com/openai/70aaaafa-fe2f-4409-9a72-c0faf50d7d01"
+  },
+  "openai-71838fdf-4476-490c-81b6-4bf0746f6774": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Plugin Developer Platform",
+    "url": "https://jobs.ashbyhq.com/openai/71838fdf-4476-490c-81b6-4bf0746f6774"
+  },
+  "openai-71e7252f-abb1-4b74-8e69-318413042357": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Startups",
+    "url": "https://jobs.ashbyhq.com/openai/71e7252f-abb1-4b74-8e69-318413042357"
+  },
+  "openai-7243bdb7-7f75-4dff-a10f-18bd7296f632": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Research Engineer / Research Scientist / AI Systems Engineer, RSI",
+    "url": "https://jobs.ashbyhq.com/openai/7243bdb7-7f75-4dff-a10f-18bd7296f632"
+  },
+  "openai-72a58872-70e2-4340-a259-e9bea3596883": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Senior Staff Software Engineer, Identity Infrastructure Engineering",
+    "url": "https://jobs.ashbyhq.com/openai/72a58872-70e2-4340-a259-e9bea3596883"
+  },
+  "openai-73e56947-5d8b-414d-a0ac-9dc9b04e2406": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Full-Stack - Core Experimentation",
+    "url": "https://jobs.ashbyhq.com/openai/73e56947-5d8b-414d-a0ac-9dc9b04e2406"
+  },
+  "openai-7613aca3-9dd8-41cd-b114-06ef4de967a9": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Cooperative AI",
+    "url": "https://jobs.ashbyhq.com/openai/7613aca3-9dd8-41cd-b114-06ef4de967a9"
+  },
+  "openai-7649205e-20dc-4bb4-9358-69474a851132": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Compute - Storage",
+    "url": "https://jobs.ashbyhq.com/openai/7649205e-20dc-4bb4-9358-69474a851132"
+  },
+  "openai-770d5c3f-4e72-4b49-aec4-d444e8ad7a64": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Compute Foundations Systems",
+    "url": "https://jobs.ashbyhq.com/openai/770d5c3f-4e72-4b49-aec4-d444e8ad7a64"
+  },
+  "openai-778e3a4f-c318-4a79-a745-00e722e5ee47": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Hardware",
+    "url": "https://jobs.ashbyhq.com/openai/778e3a4f-c318-4a79-a745-00e722e5ee47"
+  },
+  "openai-77bc0b3a-35c1-4ecf-99c7-1b3b19d959ca": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Software Engineer, Growth",
+    "url": "https://jobs.ashbyhq.com/openai/77bc0b3a-35c1-4ecf-99c7-1b3b19d959ca"
+  },
+  "openai-77fbf383-bb97-4006-9b2d-e5de2d6f79d3": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, API SDK",
+    "url": "https://jobs.ashbyhq.com/openai/77fbf383-bb97-4006-9b2d-e5de2d6f79d3"
+  },
+  "openai-7809102e-e82a-4678-bf7c-221de8acc0d6": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Fleet Management",
+    "url": "https://jobs.ashbyhq.com/openai/7809102e-e82a-4678-bf7c-221de8acc0d6"
+  },
+  "openai-79432fa9-49c0-4ba0-b2a1-9d589ddc1861": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Hardware Strategic Sourcing & Manufacturing Partnerships Manager",
+    "url": "https://jobs.ashbyhq.com/openai/79432fa9-49c0-4ba0-b2a1-9d589ddc1861"
+  },
+  "openai-7ad26793-3f0d-4336-91e8-1aaf800cfdae": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Cyber",
+    "url": "https://jobs.ashbyhq.com/openai/7ad26793-3f0d-4336-91e8-1aaf800cfdae"
+  },
+  "openai-7ade7a12-845c-4e3a-af23-c028420bd181": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Codex Core Agents",
+    "url": "https://jobs.ashbyhq.com/openai/7ade7a12-845c-4e3a-af23-c028420bd181"
+  },
+  "openai-7b90b83c-ec28-4e65-a235-6675e37b91c3": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Forward Deployed Software Engineer - Seattle",
+    "url": "https://jobs.ashbyhq.com/openai/7b90b83c-ec28-4e65-a235-6675e37b91c3"
+  },
+  "openai-7be58f3a-6005-42ed-86fa-77773ebfb294": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer",
+    "url": "https://jobs.ashbyhq.com/openai/7be58f3a-6005-42ed-86fa-77773ebfb294"
+  },
+  "openai-7cd8205b-fd73-4af1-9103-1b1fed3b0c22": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect - EDU",
+    "url": "https://jobs.ashbyhq.com/openai/7cd8205b-fd73-4af1-9103-1b1fed3b0c22"
+  },
+  "openai-7facc4fa-70f0-4f2b-8b0c-8bb79c3296c1": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Senior Staff Software Engineer, Identity",
+    "url": "https://jobs.ashbyhq.com/openai/7facc4fa-70f0-4f2b-8b0c-8bb79c3296c1"
+  },
+  "openai-7ffa2a14-fa9c-46cb-a30a-1f7a35ae904a": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, API Infrastructure",
+    "url": "https://jobs.ashbyhq.com/openai/7ffa2a14-fa9c-46cb-a30a-1f7a35ae904a"
+  },
+  "openai-823a05bf-33fb-4d94-9dd8-571723d27b1a": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Infrastructure - Core Experimentation ",
+    "url": "https://jobs.ashbyhq.com/openai/823a05bf-33fb-4d94-9dd8-571723d27b1a"
+  },
+  "openai-83730f3e-3a96-476e-afb0-15f1f045ab03": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer",
+    "url": "https://jobs.ashbyhq.com/openai/83730f3e-3a96-476e-afb0-15f1f045ab03"
+  },
+  "openai-83b3ef17-5211-403d-b763-850e1c60faa0": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Legal",
+    "url": "https://jobs.ashbyhq.com/openai/83b3ef17-5211-403d-b763-850e1c60faa0"
+  },
+  "openai-83b6755d-7785-4186-9050-5ef3ad127941": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Model Inference",
+    "url": "https://jobs.ashbyhq.com/openai/83b6755d-7785-4186-9050-5ef3ad127941"
+  },
+  "openai-85fceac9-fb8a-4d71-a524-a8e5f1e9b01b": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Inference - Performance Optimization",
+    "url": "https://jobs.ashbyhq.com/openai/85fceac9-fb8a-4d71-a524-a8e5f1e9b01b"
+  },
+  "openai-86450337-b12a-48c1-836e-cc0c5766eb8e": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Principal Software Engineer, Simulation",
+    "url": "https://jobs.ashbyhq.com/openai/86450337-b12a-48c1-836e-cc0c5766eb8e"
+  },
+  "openai-87e5f8c3-3337-480a-9db2-e4cef5db909b": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Host Systems Software Engineer",
+    "url": "https://jobs.ashbyhq.com/openai/87e5f8c3-3337-480a-9db2-e4cef5db909b"
+  },
+  "openai-8859d8fa-48d8-4e1a-a53f-39e7a58e4522": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Global Affairs",
+    "url": "https://jobs.ashbyhq.com/openai/8859d8fa-48d8-4e1a-a53f-39e7a58e4522"
+  },
+  "openai-88654e7f-4e23-4e75-8e54-18c10d09b093": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Software Engineer, Cybersecurity Products",
+    "url": "https://jobs.ashbyhq.com/openai/88654e7f-4e23-4e75-8e54-18c10d09b093"
+  },
+  "openai-89f58eb2-519f-4a36-8be0-2e594724e1bc": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Codex Enterprise",
+    "url": "https://jobs.ashbyhq.com/openai/89f58eb2-519f-4a36-8be0-2e594724e1bc"
+  },
+  "openai-8a9d680c-5122-4ffe-ab4b-e1de7e806500": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Performance & Systems Engineer, Codex",
+    "url": "https://jobs.ashbyhq.com/openai/8a9d680c-5122-4ffe-ab4b-e1de7e806500"
+  },
+  "openai-8e301350-62fb-4251-bc34-c7036498f08c": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Backend Engineer, Consumer Devices",
+    "url": "https://jobs.ashbyhq.com/openai/8e301350-62fb-4251-bc34-c7036498f08c"
+  },
+  "openai-9117987a-7a59-449e-a702-89e8d0e8cb60": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer,  ML Systems & Training Architecture",
+    "url": "https://jobs.ashbyhq.com/openai/9117987a-7a59-449e-a702-89e8d0e8cb60"
+  },
+  "openai-915a325b-55f6-44e2-8314-34ec0d8bb2c9": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Web Layer",
+    "url": "https://jobs.ashbyhq.com/openai/915a325b-55f6-44e2-8314-34ec0d8bb2c9"
+  },
+  "openai-9248eab6-74e0-4940-98eb-ca09b17da532": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, AI accelerator Runtime",
+    "url": "https://jobs.ashbyhq.com/openai/9248eab6-74e0-4940-98eb-ca09b17da532"
+  },
+  "openai-96a15a25-1cee-473b-a251-099e95f29408": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Program Lead, ISV & Marketplace Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/96a15a25-1cee-473b-a251-099e95f29408"
+  },
+  "openai-96de8acb-556e-451b-bc84-7124bb4b0a20": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, API Multimodal",
+    "url": "https://jobs.ashbyhq.com/openai/96de8acb-556e-451b-bc84-7124bb4b0a20"
+  },
+  "openai-97681dd5-65ad-4eb5-b692-e6d192871c38": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Codex Security Controls & Partner Interfaces",
+    "url": "https://jobs.ashbyhq.com/openai/97681dd5-65ad-4eb5-b692-e6d192871c38"
+  },
+  "openai-978a22a5-0f0f-4da7-811e-a4b2b2fbe659": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Policy Research and Advisory Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/978a22a5-0f0f-4da7-811e-a4b2b2fbe659"
+  },
+  "openai-98a36c10-3497-4955-9cc0-a6f211e4dc1b": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect",
+    "url": "https://jobs.ashbyhq.com/openai/98a36c10-3497-4955-9cc0-a6f211e4dc1b"
+  },
+  "openai-98ad9beb-4f91-496c-bd16-ac0b2a8d5bb2": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Infrastructure Security",
+    "url": "https://jobs.ashbyhq.com/openai/98ad9beb-4f91-496c-bd16-ac0b2a8d5bb2"
+  },
+  "openai-990397de-c00c-4577-b093-d8c82b4e9145": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, API Safety",
+    "url": "https://jobs.ashbyhq.com/openai/990397de-c00c-4577-b093-d8c82b4e9145"
+  },
+  "openai-991948b7-0305-4125-bb9a-625f5bc24189": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Integrity Foundations",
+    "url": "https://jobs.ashbyhq.com/openai/991948b7-0305-4125-bb9a-625f5bc24189"
+  },
+  "openai-99c80ef6-b5aa-4355-9170-0010151867e6": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, ChatGPT and Codex App Ecosystem",
+    "url": "https://jobs.ashbyhq.com/openai/99c80ef6-b5aa-4355-9170-0010151867e6"
+  },
+  "openai-9b1b62f5-1400-4672-910a-fda6f975f642": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Software Engineer, Education",
+    "url": "https://jobs.ashbyhq.com/openai/9b1b62f5-1400-4672-910a-fda6f975f642"
+  },
+  "openai-9b2c68f2-5ce8-44f9-a30c-d8016ac66d86": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Connectivity Software Engineer, Consumer Devices",
+    "url": "https://jobs.ashbyhq.com/openai/9b2c68f2-5ce8-44f9-a30c-d8016ac66d86"
+  },
+  "openai-9d11e1d8-af1d-413b-873f-d8fac2bdee99": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Engineer, Fleet Scheduling",
+    "url": "https://jobs.ashbyhq.com/openai/9d11e1d8-af1d-413b-873f-d8fac2bdee99"
+  },
+  "openai-9d48e2e6-41a9-4a90-8b3b-6cc960e95c2f": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Productivity - Inference Runtime",
+    "url": "https://jobs.ashbyhq.com/openai/9d48e2e6-41a9-4a90-8b3b-6cc960e95c2f"
+  },
+  "openai-9ea666f7-9b16-481f-a16d-f533d45ca795": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Partner Director - AWS Alliance Partnership, Japan",
+    "url": "https://jobs.ashbyhq.com/openai/9ea666f7-9b16-481f-a16d-f533d45ca795"
+  },
+  "openai-9efcef02-0515-4672-bace-81329944b38b": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Workload Enablement",
+    "url": "https://jobs.ashbyhq.com/openai/9efcef02-0515-4672-bace-81329944b38b"
+  },
+  "openai-a0ccedf1-2bb7-4f10-8be8-db50f9ae02c3": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Privacy Engineering (Lawful Access) ",
+    "url": "https://jobs.ashbyhq.com/openai/a0ccedf1-2bb7-4f10-8be8-db50f9ae02c3"
+  },
+  "openai-a20b7fc6-6f01-4618-ba35-37b40083f93e": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Caching Infrastructure",
+    "url": "https://jobs.ashbyhq.com/openai/a20b7fc6-6f01-4618-ba35-37b40083f93e"
+  },
+  "openai-a23bd45a-e192-460d-bd34-a0f6c4bc6865": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Backend Software Engineer - Codex for Finance",
+    "url": "https://jobs.ashbyhq.com/openai/a23bd45a-e192-460d-bd34-a0f6c4bc6865"
+  },
+  "openai-a2c9f105-b41a-41db-afd8-e70a54b3f21c": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Software Engineer, GTM Innovation",
+    "url": "https://jobs.ashbyhq.com/openai/a2c9f105-b41a-41db-afd8-e70a54b3f21c"
+  },
+  "openai-a4ea79c8-e79f-4126-8c1f-032289024961": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Monetization Delivery",
+    "url": "https://jobs.ashbyhq.com/openai/a4ea79c8-e79f-4126-8c1f-032289024961"
+  },
+  "openai-a58add97-1968-4d5c-b504-ab62bea12df3": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Fleet Infrastructure",
+    "url": "https://jobs.ashbyhq.com/openai/a58add97-1968-4d5c-b504-ab62bea12df3"
+  },
+  "openai-a6363571-e090-43a7-b758-ee3386a096c1": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Enterprise AI Platform ",
+    "url": "https://jobs.ashbyhq.com/openai/a6363571-e090-43a7-b758-ee3386a096c1"
+  },
+  "openai-a6ab3111-7092-4da2-a7a6-71e01351bfda": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, API Agents",
+    "url": "https://jobs.ashbyhq.com/openai/a6ab3111-7092-4da2-a7a6-71e01351bfda"
+  },
+  "openai-a886ff48-b8a1-4e28-b468-296713a5ad78": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full-Stack SWE, Data Acquisition (Foundations)",
+    "url": "https://jobs.ashbyhq.com/openai/a886ff48-b8a1-4e28-b468-296713a5ad78"
+  },
+  "openai-a90cdb7c-1c33-4fca-9a96-26c236006f14": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Senior Staff Software Engineer, Gov",
+    "url": "https://jobs.ashbyhq.com/openai/a90cdb7c-1c33-4fca-9a96-26c236006f14"
+  },
+  "openai-a99e16a8-6fb1-41b9-8d2f-3cf80383121c": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Principal Software Engineer, Enterprise Technology Vertical",
+    "url": "https://jobs.ashbyhq.com/openai/a99e16a8-6fb1-41b9-8d2f-3cf80383121c"
+  },
+  "openai-ac4ad2fe-48a8-4329-9ba0-d37361ae6dde": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Manager, Applied AI Engineering (Large Enterprise)",
+    "url": "https://jobs.ashbyhq.com/openai/ac4ad2fe-48a8-4329-9ba0-d37361ae6dde"
+  },
+  "openai-ace42c6d-8663-4b30-9337-ec70cf071d73": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Principal Software Engineer, Infrastructure Security",
+    "url": "https://jobs.ashbyhq.com/openai/ace42c6d-8663-4b30-9337-ec70cf071d73"
+  },
+  "openai-ad06299f-d4e2-4de6-a925-b2e94b3c1d0b": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect",
+    "url": "https://jobs.ashbyhq.com/openai/ad06299f-d4e2-4de6-a925-b2e94b3c1d0b"
+  },
+  "openai-b08126cc-8134-45f0-aeb3-4b00e96547de": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Android Systems Engineer, Consumer Devices",
+    "url": "https://jobs.ashbyhq.com/openai/b08126cc-8134-45f0-aeb3-4b00e96547de"
+  },
+  "openai-b09b4216-426d-443c-9b87-23570fd9a694": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Strategic Finance, Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/b09b4216-426d-443c-9b87-23570fd9a694"
+  },
+  "openai-b398e1c6-0c32-4464-bb34-6ccda901b688": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Backend Software Engineer, Applied Foundations",
+    "url": "https://jobs.ashbyhq.com/openai/b398e1c6-0c32-4464-bb34-6ccda901b688"
+  },
+  "openai-b46ffd99-f9f2-440c-ac13-448eb7911ad6": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Cyber",
+    "url": "https://jobs.ashbyhq.com/openai/b46ffd99-f9f2-440c-ac13-448eb7911ad6"
+  },
+  "openai-b5ede8ec-8c71-4155-ace1-1a7be9b26f83": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Business Development Lead, Compute Strategy",
+    "url": "https://jobs.ashbyhq.com/openai/b5ede8ec-8c71-4155-ace1-1a7be9b26f83"
+  },
+  "openai-b7a2e30f-c5f6-4710-b53e-64d64bcce189": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Data Infrastructure - Research",
+    "url": "https://jobs.ashbyhq.com/openai/b7a2e30f-c5f6-4710-b53e-64d64bcce189"
+  },
+  "openai-b9dee2a0-9bb3-447e-9bce-2b1bed784e5b": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, AI Safety",
+    "url": "https://jobs.ashbyhq.com/openai/b9dee2a0-9bb3-447e-9bce-2b1bed784e5b"
+  },
+  "openai-bd190cad-99ec-4fe7-8f8f-de96b5aa5969": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Backend (Cooperative AI)",
+    "url": "https://jobs.ashbyhq.com/openai/bd190cad-99ec-4fe7-8f8f-de96b5aa5969"
+  },
+  "openai-bed15207-f4bc-4a51-ae13-de017ddf3cba": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Sales Manager, Digital Natives",
+    "url": "https://jobs.ashbyhq.com/openai/bed15207-f4bc-4a51-ae13-de017ddf3cba"
+  },
+  "openai-bf036b23-cd23-46d0-a02f-4b1483f4698a": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer",
+    "url": "https://jobs.ashbyhq.com/openai/bf036b23-cd23-46d0-a02f-4b1483f4698a"
+  },
+  "openai-c00094f9-e071-4870-afec-104beb3ce499": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect, Large Enterprise",
+    "url": "https://jobs.ashbyhq.com/openai/c00094f9-e071-4870-afec-104beb3ce499"
+  },
+  "openai-c02b35b2-af37-4740-a702-2ed3b5dc3cf1": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Productivity - Training Runtime",
+    "url": "https://jobs.ashbyhq.com/openai/c02b35b2-af37-4740-a702-2ed3b5dc3cf1"
+  },
+  "openai-c1316397-25bb-4add-9e9d-0e3ea8ba929a": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Agent Infrastructure",
+    "url": "https://jobs.ashbyhq.com/openai/c1316397-25bb-4add-9e9d-0e3ea8ba929a"
+  },
+  "openai-c1a28411-266b-487b-8ef3-03efb254fc36": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Agent Enablement ",
+    "url": "https://jobs.ashbyhq.com/openai/c1a28411-266b-487b-8ef3-03efb254fc36"
+  },
+  "openai-c2aeb70d-3eca-4c4f-a414-6394b30fea80": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full Stack Software Engineer, Health AI",
+    "url": "https://jobs.ashbyhq.com/openai/c2aeb70d-3eca-4c4f-a414-6394b30fea80"
+  },
+  "openai-c51e48ce-31ad-4176-a6d5-4a785b44ab73": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Monetization Product & Platform ",
+    "url": "https://jobs.ashbyhq.com/openai/c51e48ce-31ad-4176-a6d5-4a785b44ab73"
+  },
+  "openai-c5fbd661-b634-447c-8fe0-1d625969c4b1": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Partnerships Manager",
+    "url": "https://jobs.ashbyhq.com/openai/c5fbd661-b634-447c-8fe0-1d625969c4b1"
+  },
+  "openai-ca300a6d-a2a7-4580-aad7-323fbdfee7b1": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Compute Infrastructure",
+    "url": "https://jobs.ashbyhq.com/openai/ca300a6d-a2a7-4580-aad7-323fbdfee7b1"
+  },
+  "openai-ca54cd23-2bcc-4327-bcb6-46d81ed414a8": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, ChatGPT Shopping",
+    "url": "https://jobs.ashbyhq.com/openai/ca54cd23-2bcc-4327-bcb6-46d81ed414a8"
+  },
+  "openai-ca9e0aeb-6df1-4b73-8ec0-2e9e124712f1": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Plugins",
+    "url": "https://jobs.ashbyhq.com/openai/ca9e0aeb-6df1-4b73-8ec0-2e9e124712f1"
+  },
+  "openai-cc0d0d86-eb9d-44a0-a6a4-42bbb6066b4b": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Youth",
+    "url": "https://jobs.ashbyhq.com/openai/cc0d0d86-eb9d-44a0-a6a4-42bbb6066b4b"
+  },
+  "openai-cd3f8166-9f07-4d1b-944d-a4a6593a196a": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "ISV Partnerships Lead",
+    "url": "https://jobs.ashbyhq.com/openai/cd3f8166-9f07-4d1b-944d-a4a6593a196a"
+  },
+  "openai-d1121575-a1a7-47c9-97e6-56c70f441143": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Systems Software Engineer, Silicon Bringup",
+    "url": "https://jobs.ashbyhq.com/openai/d1121575-a1a7-47c9-97e6-56c70f441143"
+  },
+  "openai-d1c6cb87-a44d-4d04-92a8-dc40eccd090e": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Codex \u2014 User Activation",
+    "url": "https://jobs.ashbyhq.com/openai/d1c6cb87-a44d-4d04-92a8-dc40eccd090e"
+  },
+  "openai-d2aad13c-6ed0-4905-ae12-8ea2397b190c": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Monetization Data Systems",
+    "url": "https://jobs.ashbyhq.com/openai/d2aad13c-6ed0-4905-ae12-8ea2397b190c"
+  },
+  "openai-d4780eac-03ad-4dae-861f-99af22b4287e": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Full Stack (People Innovation)",
+    "url": "https://jobs.ashbyhq.com/openai/d4780eac-03ad-4dae-861f-99af22b4287e"
+  },
+  "openai-d4dcd344-40cf-44d6-a7dd-172118eb0842": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Observability",
+    "url": "https://jobs.ashbyhq.com/openai/d4dcd344-40cf-44d6-a7dd-172118eb0842"
+  },
+  "openai-d7dc62fc-e7ce-4f58-a912-4b62b65c7eb6": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Academic Research Partnerships & Programs Lead",
+    "url": "https://jobs.ashbyhq.com/openai/d7dc62fc-e7ce-4f58-a912-4b62b65c7eb6"
+  },
+  "openai-d7efc55b-2fde-4d3f-ae34-2e467f02a57c": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Hardware Health",
+    "url": "https://jobs.ashbyhq.com/openai/d7efc55b-2fde-4d3f-ae34-2e467f02a57c"
+  },
+  "openai-da07ba71-81fd-47c7-adb1-2b2d1eaed325": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Distributed Data Systems - Robotics",
+    "url": "https://jobs.ashbyhq.com/openai/da07ba71-81fd-47c7-adb1-2b2d1eaed325"
+  },
+  "openai-da45caa7-461d-478f-a862-82120dd80e19": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Salesforce Ads Systems Engineer",
+    "url": "https://jobs.ashbyhq.com/openai/da45caa7-461d-478f-a862-82120dd80e19"
+  },
+  "openai-db053b0e-c1a5-4b7a-bcb6-6e766629e7b1": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Internal Applications - Enterprise",
+    "url": "https://jobs.ashbyhq.com/openai/db053b0e-c1a5-4b7a-bcb6-6e766629e7b1"
+  },
+  "openai-db993e24-ce4f-4f55-9187-403726bcb957": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Technical Program Manager, Cloud AI Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/db993e24-ce4f-4f55-9187-403726bcb957"
+  },
+  "openai-de06790a-7243-4e33-a6f1-e7bd34009588": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "AI Systems Engineer, Codex Agents",
+    "url": "https://jobs.ashbyhq.com/openai/de06790a-7243-4e33-a6f1-e7bd34009588"
+  },
+  "openai-deff9215-217d-4392-825e-7788cb8205f3": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Localization",
+    "url": "https://jobs.ashbyhq.com/openai/deff9215-217d-4392-825e-7788cb8205f3"
+  },
+  "openai-df8a1d73-58b9-4571-86f5-da9a12155fbb": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Shopping",
+    "url": "https://jobs.ashbyhq.com/openai/df8a1d73-58b9-4571-86f5-da9a12155fbb"
+  },
+  "openai-e14fc37c-7ae5-4a6b-ba0d-a36860cf9bb2": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Delivery / CD",
+    "url": "https://jobs.ashbyhq.com/openai/e14fc37c-7ae5-4a6b-ba0d-a36860cf9bb2"
+  },
+  "openai-e44bfa94-0b82-4d0c-b224-02155b76eea9": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Infrastructure - Analytics Platform",
+    "url": "https://jobs.ashbyhq.com/openai/e44bfa94-0b82-4d0c-b224-02155b76eea9"
+  },
+  "openai-e665817a-bf86-4208-8cf3-c1754c28b401": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Architect",
+    "url": "https://jobs.ashbyhq.com/openai/e665817a-bf86-4208-8cf3-c1754c28b401"
+  },
+  "openai-e6981259-c1d0-46de-8376-56bde28cfb10": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, ChatGPT Infrastructure ",
+    "url": "https://jobs.ashbyhq.com/openai/e6981259-c1d0-46de-8376-56bde28cfb10"
+  },
+  "openai-e6d5ca02-f30b-4ac5-a69d-c947efb430f9": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Research Developer Productivity",
+    "url": "https://jobs.ashbyhq.com/openai/e6d5ca02-f30b-4ac5-a69d-c947efb430f9"
+  },
+  "openai-e961c9df-caa0-4b29-b37c-a3e02c564615": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Silicon Design Methodology",
+    "url": "https://jobs.ashbyhq.com/openai/e961c9df-caa0-4b29-b37c-a3e02c564615"
+  },
+  "openai-e9627fa6-ac76-4899-9a93-9251419e61a0": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Kernel Performance & AI Tooling",
+    "url": "https://jobs.ashbyhq.com/openai/e9627fa6-ac76-4899-9a93-9251419e61a0"
+  },
+  "openai-e99105f1-0a15-4f25-9538-60312568f835": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Privacy Engineering (Lawful Access) ",
+    "url": "https://jobs.ashbyhq.com/openai/e99105f1-0a15-4f25-9538-60312568f835"
+  },
+  "openai-eacbd123-83fb-42c6-a5d5-e914b8e135b8": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Applied AI Engineer, Startups ",
+    "url": "https://jobs.ashbyhq.com/openai/eacbd123-83fb-42c6-a5d5-e914b8e135b8"
+  },
+  "openai-ec317080-e2d2-4a73-93e6-e0a9ae6fdf96": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Model Runtime",
+    "url": "https://jobs.ashbyhq.com/openai/ec317080-e2d2-4a73-93e6-e0a9ae6fdf96"
+  },
+  "openai-ecf1abec-898c-4acb-a984-42858836a1ff": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Machine Learning Engineer, Integrity",
+    "url": "https://jobs.ashbyhq.com/openai/ecf1abec-898c-4acb-a984-42858836a1ff"
+  },
+  "openai-eefeb527-4e36-432e-a787-88e4672e29e1": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Codex Cyber",
+    "url": "https://jobs.ashbyhq.com/openai/eefeb527-4e36-432e-a787-88e4672e29e1"
+  },
+  "openai-ef828b89-41ed-4cde-96a9-94ffe5770d4c": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full-Stack Engineer, ChatGPT Education  & Learning",
+    "url": "https://jobs.ashbyhq.com/openai/ef828b89-41ed-4cde-96a9-94ffe5770d4c"
+  },
+  "openai-f20c5c53-e5ed-4bbd-a825-4ec7f543e3e0": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Solutions Engineer, Ads",
+    "url": "https://jobs.ashbyhq.com/openai/f20c5c53-e5ed-4bbd-a825-4ec7f543e3e0"
+  },
+  "openai-f386b209-1259-4b79-bf5a-aa97fc7ce77b": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Accelerators",
+    "url": "https://jobs.ashbyhq.com/openai/f386b209-1259-4b79-bf5a-aa97fc7ce77b"
+  },
+  "openai-f3ddd41c-541f-485e-90d6-86c26e018e9f": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, GPT Infrastructure",
+    "url": "https://jobs.ashbyhq.com/openai/f3ddd41c-541f-485e-90d6-86c26e018e9f"
+  },
+  "openai-f4e8a433-ae96-44ac-a7f9-97070335395f": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Youth Well-Being",
+    "url": "https://jobs.ashbyhq.com/openai/f4e8a433-ae96-44ac-a7f9-97070335395f"
+  },
+  "openai-f58cb1eb-9642-4a4d-a14d-d7a57d583a11": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, GPU Infrastructure - HPC",
+    "url": "https://jobs.ashbyhq.com/openai/f58cb1eb-9642-4a4d-a14d-d7a57d583a11"
+  },
+  "openai-f6278b60-dd42-4aa8-a3cd-c105f75ae8ae": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Cloud Agents",
+    "url": "https://jobs.ashbyhq.com/openai/f6278b60-dd42-4aa8-a3cd-c105f75ae8ae"
+  },
+  "openai-f69f75f5-439f-4044-8ae1-8fd810e0402d": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Data Center Physical Security Systems Engineer",
+    "url": "https://jobs.ashbyhq.com/openai/f69f75f5-439f-4044-8ae1-8fd810e0402d"
+  },
+  "openai-f6f4ebba-12ec-4445-b961-39f28e6540b5": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Partnerships Lead - Cyber",
+    "url": "https://jobs.ashbyhq.com/openai/f6f4ebba-12ec-4445-b961-39f28e6540b5"
+  },
+  "openai-f763c6b3-5167-4a67-b691-4c3fa2c44156": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Data Infrastructure",
+    "url": "https://jobs.ashbyhq.com/openai/f763c6b3-5167-4a67-b691-4c3fa2c44156"
+  },
+  "openai-f873dd71-46c9-4be1-8580-bc67c56b4cad": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Full-Stack Software Engineer, Applied Foundations",
+    "url": "https://jobs.ashbyhq.com/openai/f873dd71-46c9-4be1-8580-bc67c56b4cad"
+  },
+  "openai-f8b84ae5-743b-41c9-8432-02dff9993d6b": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Model Deployment- ChatGPT Engineering",
+    "url": "https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b"
+  },
+  "openai-fabfc6c5-57b5-49ba-aae9-e7dd5d7030ca": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Robotics Software Engineer",
+    "url": "https://jobs.ashbyhq.com/openai/fabfc6c5-57b5-49ba-aae9-e7dd5d7030ca"
+  },
+  "openai-fada5332-3ae3-46f2-afa2-10c5878bdd25": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Account Director, Federal Partnerships",
+    "url": "https://jobs.ashbyhq.com/openai/fada5332-3ae3-46f2-afa2-10c5878bdd25"
+  },
+  "openai-fb5862cc-244c-410b-b287-47df89ad1e43": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Privacy",
+    "url": "https://jobs.ashbyhq.com/openai/fb5862cc-244c-410b-b287-47df89ad1e43"
+  },
+  "openai-fbc7ebaf-3a26-406d-9ff6-f166f3e246a2": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, Safety Measurement",
+    "url": "https://jobs.ashbyhq.com/openai/fbc7ebaf-3a26-406d-9ff6-f166f3e246a2"
+  },
+  "openai-fc38c6bf-5330-435c-99b6-1bcf1f5829a8": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Product Manager, API Agents",
+    "url": "https://jobs.ashbyhq.com/openai/fc38c6bf-5330-435c-99b6-1bcf1f5829a8"
+  },
+  "openai-fcb0ed1a-9329-4e8f-8aab-92bb626d8141": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Founding Full Stack Software Engineer, Legal",
+    "url": "https://jobs.ashbyhq.com/openai/fcb0ed1a-9329-4e8f-8aab-92bb626d8141"
+  },
+  "openai-fff02c39-1185-427c-bf89-70d7eaa5e3db": {
+    "company": "OpenAI",
+    "first_seen": "2026-08-26",
+    "title": "Software Engineer, Codex -Enterprise Controls",
+    "url": "https://jobs.ashbyhq.com/openai/fff02c39-1185-427c-bf89-70d7eaa5e3db"
+  }
+}
