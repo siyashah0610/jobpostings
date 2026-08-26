@@ -187,30 +187,63 @@ def fetch_google():
     """Best-effort scrape of Google's public careers search-results pages."""
     jobs = []
     base = "https://www.google.com/about/careers/applications/jobs/results/"
-    for page in range(1, 16):
-        r = requests.get(base, params={"page": page, "hl": "en"}, headers=HEADERS, timeout=30)
-        if r.status_code != 200:
-            break
-        html = r.text
-        # Job result links look like /about/careers/applications/jobs/results/<id>-<slug>
-        found = re.findall(
-            r'href="(/about/careers/applications/jobs/results/(\d+)-[^"?#]+)"[^>]*>\s*([^<]{3,200})',
-            html,
-        )
-        if not found:
-            break
-        for href, jid, title in found:
-            title = title.strip()
-            if not title:
+
+    try:
+        for page in range(1, 16):
+            try:
+                r = requests.get(base, params={"page": page, "hl": "en"}, headers=HEADERS, timeout=30)
+                if r.status_code != 200:
+                    break
+                html = r.text
+
+                # Try multiple patterns for job links (handles different HTML structures)
+                patterns = [
+                    r'href="(/about/careers/applications/jobs/results/(\d+)-[^"?#]+)"[^>]*>\s*([^<]{3,200})',
+                    r'"jobTitle"\s*:\s*"([^"]+)".*?"id"\s*:\s*"(\d+)"',
+                    r'data-job-id="([^"]+)"[^>]*>\s*([^<]{3,200})',
+                ]
+
+                found = []
+                for pattern in patterns:
+                    found = re.findall(pattern, html, re.DOTALL | re.IGNORECASE)
+                    if found:
+                        break
+
+                if not found:
+                    # If no jobs found on this page, try next page before giving up
+                    continue
+
+                for match in found:
+                    if len(match) == 3:
+                        href, jid, title = match
+                        title = title.strip()
+                        if not title:
+                            continue
+                        jobs.append({
+                            "id": f"google-{jid}",
+                            "company": "Google",
+                            "title": title,
+                            "location": "",
+                            "url": f"https://www.google.com{href}" if href.startswith("/") else href,
+                        })
+                    elif len(match) == 2:
+                        title, jid = match
+                        title = title.strip()
+                        if not title:
+                            continue
+                        jobs.append({
+                            "id": f"google-{jid}",
+                            "company": "Google",
+                            "title": title,
+                            "location": "",
+                            "url": f"https://www.google.com/about/careers/applications/jobs/results/{jid}",
+                        })
+                time.sleep(0.3)
+            except Exception as e:
                 continue
-            jobs.append({
-                "id": f"google-{jid}",
-                "company": "Google",
-                "title": title,
-                "location": "",
-                "url": f"https://www.google.com{href}",
-            })
-        time.sleep(0.3)
+    except Exception:
+        pass
+
     seen, deduped = set(), []
     for j in jobs:
         if j["id"] not in seen:
@@ -224,20 +257,42 @@ def fetch_waymo():
     API. This looks for embedded JSON in the page. Likely needs adjustment --
     see README's troubleshooting section."""
     jobs = []
-    r = requests.get("https://waymo.com/joinus/", headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    html = r.text
-    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.DOTALL)
-    blob_text = m.group(1) if m else html
-    for jm in re.finditer(r'"title":"([^"]{3,150})"[^}]{0,300}?"id":"?([\w-]+)"?', blob_text):
-        title, jid = jm.group(1), jm.group(2)
-        jobs.append({
-            "id": f"waymo-{jid}",
-            "company": "Waymo",
-            "title": title,
-            "location": "",
-            "url": "https://waymo.com/joinus/",
-        })
+    try:
+        r = requests.get("https://waymo.com/joinus/", headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        html = r.text
+
+        # Try to find JSON data in multiple ways
+        patterns = [
+            r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>',
+            r'<script[^>]*type="application/json"[^>]*>(.*?)</script>',
+            r'"jobs?\s*":\s*(\[.*?\])',
+        ]
+
+        blob_text = html
+        for pattern in patterns:
+            m = re.search(pattern, html, re.DOTALL)
+            if m:
+                blob_text = m.group(1)
+                break
+
+        # Look for job titles and IDs in the JSON data
+        for jm in re.finditer(r'"title"\s*:\s*"([^"]{3,150})"', blob_text):
+            title = jm.group(1)
+            # Try to extract ID near the title
+            id_match = re.search(r'"id"\s*:\s*"([\w-]+)"', blob_text[max(0, jm.start()-200):jm.end()+200])
+            jid = id_match.group(1) if id_match else title.replace(" ", "-")[:50]
+
+            jobs.append({
+                "id": f"waymo-{jid}",
+                "company": "Waymo",
+                "title": title,
+                "location": "",
+                "url": "https://waymo.com/joinus/",
+            })
+    except Exception:
+        pass
+
     seen, deduped = set(), []
     for j in jobs:
         if j["id"] not in seen:
@@ -251,18 +306,53 @@ def fetch_meta():
     whatever job data is embedded in metacareers.com/jobs today. This is the
     most likely connector to break -- see README's troubleshooting section."""
     jobs = []
-    r = requests.get("https://www.metacareers.com/jobs", headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    html = r.text
-    for jm in re.finditer(r'"job_req_id":"(\d+)"[^}]{0,300}?"title":"([^"]{3,150})"', html):
-        jid, title = jm.group(1), jm.group(2)
-        jobs.append({
-            "id": f"meta-{jid}",
-            "company": "Meta",
-            "title": title,
-            "location": "",
-            "url": f"https://www.metacareers.com/jobs/{jid}",
-        })
+    try:
+        r = requests.get("https://www.metacareers.com/jobs", headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        html = r.text
+
+        # Try multiple patterns for finding job data
+        patterns = [
+            r'"job_req_id"\s*:\s*"?(\d+)"?[^}]{0,300}?"title"\s*:\s*"([^"]{3,150})"',
+            r'"id"\s*:\s*"?(\d+)"?[^}]{0,300}?"title"\s*:\s*"([^"]{3,150})"',
+            r'"jobId"\s*:\s*"?(\d+)"?[^}]{0,300}?"title"\s*:\s*"([^"]{3,150})"',
+            r'"position_id"\s*:\s*"?(\d+)"?[^}]{0,300}?"title"\s*:\s*"([^"]{3,150})"',
+        ]
+
+        for pattern in patterns:
+            for jm in re.finditer(pattern, html, re.DOTALL | re.IGNORECASE):
+                jid, title = jm.group(1), jm.group(2)
+                jobs.append({
+                    "id": f"meta-{jid}",
+                    "company": "Meta",
+                    "title": title,
+                    "location": "",
+                    "url": f"https://www.metacareers.com/jobs/{jid}",
+                })
+            if jobs:
+                break
+
+        # If still no jobs, try a simpler pattern just for titles
+        if not jobs:
+            for jm in re.finditer(r'"title"\s*:\s*"([^"]{3,150})"', html):
+                title = jm.group(1)
+                jid = re.search(r'"id"\s*:\s*"?(\d+)"?', html[max(0, jm.start()-300):jm.start()])
+                if not jid:
+                    jid = title.replace(" ", "-")[:50]
+                else:
+                    jid = jid.group(1)
+
+                jobs.append({
+                    "id": f"meta-{jid}",
+                    "company": "Meta",
+                    "title": title,
+                    "location": "",
+                    "url": f"https://www.metacareers.com/jobs/{jid}",
+                })
+
+    except Exception:
+        pass
+
     seen, deduped = set(), []
     for j in jobs:
         if j["id"] not in seen:
