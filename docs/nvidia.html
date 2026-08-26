@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Radar - NVIDIA</title>
+<style>
+  :root {
+    --ink: #0b1220;
+    --panel: #111a2c;
+    --line: #21304a;
+    --text: #dbe4f3;
+    --muted: #7f92b3;
+    --signal: #35e0a1;
+    --accent: #5b8cff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ink);
+    color: var(--text);
+    font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+    line-height: 1.5;
+    padding: 40px 20px 80px;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  header { margin-bottom: 32px; }
+  .eyebrow {
+    color: var(--signal);
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .eyebrow::before {
+    content: "";
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--signal);
+    box-shadow: 0 0 0 0 rgba(53,224,161,0.6);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(53,224,161,0.5); }
+    70% { box-shadow: 0 0 0 8px rgba(53,224,161,0); }
+    100% { box-shadow: 0 0 0 0 rgba(53,224,161,0); }
+  }
+  h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 34px;
+    margin: 10px 0 4px;
+    font-weight: 400;
+    color: #fff;
+  }
+  h1 a { color: inherit; text-decoration: none; }
+  h1 a:hover { color: var(--accent); }
+  .subtitle { color: var(--muted); font-size: 13px; }
+  nav {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+  }
+  nav a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 8px;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+  }
+  nav a:hover { background: var(--panel); }
+  nav a.active { background: var(--accent); color: var(--ink); }
+  h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 8px;
+    margin: 36px 0 4px;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+  }
+  .count { color: var(--accent); font-size: 12px; }
+  .job-row {
+    padding: 12px 4px;
+    border-bottom: 1px solid var(--line);
+    font-size: 14px;
+  }
+  .job-info {
+    margin-bottom: 8px;
+  }
+  .job-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--text);
+    flex-wrap: wrap;
+  }
+  .job-row:hover { background: var(--panel); }
+  .title { flex: 1; min-width: 200px; }
+  .loc { color: var(--muted); font-size: 12px; }
+  .company-tag {
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .new-badge {
+    background: var(--signal);
+    color: #06231a;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 3px;
+    letter-spacing: 0.05em;
+  }
+  .status-toggle {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .status-option {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  .status-option input {
+    cursor: pointer;
+  }
+  .status-option span {
+    color: var(--muted);
+  }
+  .status-option input:checked + span {
+    color: var(--signal);
+    font-weight: 700;
+  }
+  .empty { color: var(--muted); font-size: 13px; padding: 12px 4px; }
+  .error-banner {
+    margin-top: 32px;
+    padding: 12px 16px;
+    border: 1px solid #5a3a1a;
+    background: #201409;
+    color: #e0b378;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  .error-banner ul { margin: 6px 0 0; padding-left: 18px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 11px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">Scanning six companies daily</div>
+      <h1><a href="index.html">Job Radar</a></h1>
+      <div class="subtitle">Last checked 2026-08-26 03:20 UTC</div>
+      <nav>
+        <a href="index.html" class="active">Home</a><a href="anthropic.html">Anthropic</a><a href="google.html">Google</a><a href="meta.html">Meta</a><a href="nvidia.html">NVIDIA</a><a href="openai.html">OpenAI</a><a href="waymo.html">Waymo</a>
+      </nav>
+    </header>
+
+    
+<h2>All Listings <span class="count">22</span></h2>
+
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Account-Manager--Healthcare-MedTech_JR2021456" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Account Manager, Healthcare MedTech</span>
+              <span class="loc">6 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Account-Manager--Healthcare-MedTech_JR2021456" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/Account-Manager--Healthcare-MedTech_JR2021456">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Account-Manager--Healthcare-MedTech_JR2021456" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Account-Manager--Healthcare-MedTech_JR2021456">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Account-Manager--Healthcare-MedTech_JR2021456" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Account-Manager--Healthcare-MedTech_JR2021456">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Applied-AI-Engineer---Silicon-Co-Design-Group_JR2023526" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Applied AI Engineer - Silicon Co-Design Group</span>
+              <span class="loc">China, Shanghai</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/China-Shanghai/Applied-AI-Engineer---Silicon-Co-Design-Group_JR2023526" value="need_to_apply" checked data-job-id="nvidia-/job/China-Shanghai/Applied-AI-Engineer---Silicon-Co-Design-Group_JR2023526">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/China-Shanghai/Applied-AI-Engineer---Silicon-Co-Design-Group_JR2023526" value="dont_want_to_apply"  data-job-id="nvidia-/job/China-Shanghai/Applied-AI-Engineer---Silicon-Co-Design-Group_JR2023526">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/China-Shanghai/Applied-AI-Engineer---Silicon-Co-Design-Group_JR2023526" value="applied"  data-job-id="nvidia-/job/China-Shanghai/Applied-AI-Engineer---Silicon-Co-Design-Group_JR2023526">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer_JR2024363" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Principal Software Engineer</span>
+              <span class="loc">3 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer_JR2024363" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer_JR2024363">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer_JR2024363" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer_JR2024363">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer_JR2024363" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer_JR2024363">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Principal Software Engineer – CSP Engagements</span>
+              <span class="loc">US, CA, Santa Clara</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Infrastructure_JR2024352-1" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Principal Software Engineer – Infrastructure</span>
+              <span class="loc">2 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---Infrastructure_JR2024352-1" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---Infrastructure_JR2024352-1">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---Infrastructure_JR2024352-1" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---Infrastructure_JR2024352-1">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---Infrastructure_JR2024352-1" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---Infrastructure_JR2024352-1">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Manager--AI-for-Quantum_JR2023411" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Product Manager, AI for Quantum</span>
+              <span class="loc">4 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Product-Manager--AI-for-Quantum_JR2023411" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/Product-Manager--AI-for-Quantum_JR2023411">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Product-Manager--AI-for-Quantum_JR2023411" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Product-Manager--AI-for-Quantum_JR2023411">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Product-Manager--AI-for-Quantum_JR2023411" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Product-Manager--AI-for-Quantum_JR2023411">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Senior Linux Kernel Systems Software Engineer – CSP Engagements</span>
+              <span class="loc">4 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Software-Engineering---RL-Post-Training-Frameworks_JR2024140" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Senior Manager, Software Engineering - RL Post-Training Frameworks</span>
+              <span class="loc">6 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Manager--Software-Engineering---RL-Post-Training-Frameworks_JR2024140" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Manager--Software-Engineering---RL-Post-Training-Frameworks_JR2024140">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Manager--Software-Engineering---RL-Post-Training-Frameworks_JR2024140" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Manager--Software-Engineering---RL-Post-Training-Frameworks_JR2024140">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Manager--Software-Engineering---RL-Post-Training-Frameworks_JR2024140" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Manager--Software-Engineering---RL-Post-Training-Frameworks_JR2024140">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Product-Manager--HPC-and-AI-for-Physics_JR2023471" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Senior Product Manager, HPC and AI for Physics</span>
+              <span class="loc">2 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Remote/Senior-Product-Manager--HPC-and-AI-for-Physics_JR2023471" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Remote/Senior-Product-Manager--HPC-and-AI-for-Physics_JR2023471">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Remote/Senior-Product-Manager--HPC-and-AI-for-Physics_JR2023471" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Remote/Senior-Product-Manager--HPC-and-AI-for-Physics_JR2023471">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Remote/Senior-Product-Manager--HPC-and-AI-for-Physics_JR2023471" value="applied"  data-job-id="nvidia-/job/US-CA-Remote/Senior-Product-Manager--HPC-and-AI-for-Physics_JR2023471">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Site-Reliability-Engineer_JR2024251" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Senior Site Reliability Engineer</span>
+              <span class="loc">2 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/Israel-Yokneam/Senior-Site-Reliability-Engineer_JR2024251" value="need_to_apply" checked data-job-id="nvidia-/job/Israel-Yokneam/Senior-Site-Reliability-Engineer_JR2024251">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/Israel-Yokneam/Senior-Site-Reliability-Engineer_JR2024251" value="dont_want_to_apply"  data-job-id="nvidia-/job/Israel-Yokneam/Senior-Site-Reliability-Engineer_JR2024251">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/Israel-Yokneam/Senior-Site-Reliability-Engineer_JR2024251" value="applied"  data-job-id="nvidia-/job/Israel-Yokneam/Senior-Site-Reliability-Engineer_JR2024251">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---AV-Platform_JR2023594" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Senior Software Engineer - AV Platform</span>
+              <span class="loc">US, CA, Santa Clara</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer---AV-Platform_JR2023594" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer---AV-Platform_JR2023594">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer---AV-Platform_JR2023594" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer---AV-Platform_JR2023594">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer---AV-Platform_JR2023594" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer---AV-Platform_JR2023594">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Senior Software Engineer, Core Infrastructure Services - DGX Cloud</span>
+              <span class="loc">5 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552" value="need_to_apply" checked data-job-id="nvidia-/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552" value="applied"  data-job-id="nvidia-/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2022921" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Senior Software Engineer, DGX Cloud Orchestration</span>
+              <span class="loc">2 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2022921" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2022921">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2022921" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2022921">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2022921" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2022921">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2020967-1" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Senior Software Engineer, DGX Cloud Orchestration</span>
+              <span class="loc">2 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2020967-1" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2020967-1">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2020967-1" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2020967-1">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2020967-1" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2020967-1">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Senior-Software-Engineer--Developer-Tools-for-Cloud_JR2011154" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Senior Software Engineer, Developer Tools for Cloud</span>
+              <span class="loc">3 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-WA-Redmond/Senior-Software-Engineer--Developer-Tools-for-Cloud_JR2011154" value="need_to_apply" checked data-job-id="nvidia-/job/US-WA-Redmond/Senior-Software-Engineer--Developer-Tools-for-Cloud_JR2011154">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-WA-Redmond/Senior-Software-Engineer--Developer-Tools-for-Cloud_JR2011154" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-WA-Redmond/Senior-Software-Engineer--Developer-Tools-for-Cloud_JR2011154">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-WA-Redmond/Senior-Software-Engineer--Developer-Tools-for-Cloud_JR2011154" value="applied"  data-job-id="nvidia-/job/US-WA-Redmond/Senior-Software-Engineer--Developer-Tools-for-Cloud_JR2011154">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2023247-1" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Senior Software Engineer, Network System Validation</span>
+              <span class="loc">Israel, Yokneam</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2023247-1" value="need_to_apply" checked data-job-id="nvidia-/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2023247-1">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2023247-1" value="dont_want_to_apply"  data-job-id="nvidia-/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2023247-1">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2023247-1" value="applied"  data-job-id="nvidia-/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2023247-1">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Senior Systems Software Engineer, Data Center Platform Enablement</span>
+              <span class="loc">US, CA, Santa Clara</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2024097" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Software Engineer, Performance Lab and Tools</span>
+              <span class="loc">US, CA, Santa Clara</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2024097" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2024097">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2024097" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2024097">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2024097" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2024097">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Australia-Remote/Solutions-Architect---DevOps_JR2015236" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">Solutions Architect - DevOps</span>
+              <span class="loc">Australia, Remote</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/Australia-Remote/Solutions-Architect---DevOps_JR2015236" value="need_to_apply" checked data-job-id="nvidia-/job/Australia-Remote/Solutions-Architect---DevOps_JR2015236">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/Australia-Remote/Solutions-Architect---DevOps_JR2015236" value="dont_want_to_apply"  data-job-id="nvidia-/job/Australia-Remote/Solutions-Architect---DevOps_JR2015236">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/Australia-Remote/Solutions-Architect---DevOps_JR2015236" value="applied"  data-job-id="nvidia-/job/Australia-Remote/Solutions-Architect---DevOps_JR2015236">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">System Software Engineer - Performance Verification Infrastructure</span>
+              <span class="loc">US, CA, Santa Clara</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-IL-Champaign/System-Software-Engineer--HPC-Performance_JR2023599" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">System Software Engineer, HPC Performance</span>
+              <span class="loc">3 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-IL-Champaign/System-Software-Engineer--HPC-Performance_JR2023599" value="need_to_apply" checked data-job-id="nvidia-/job/US-IL-Champaign/System-Software-Engineer--HPC-Performance_JR2023599">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-IL-Champaign/System-Software-Engineer--HPC-Performance_JR2023599" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-IL-Champaign/System-Software-Engineer--HPC-Performance_JR2023599">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-IL-Champaign/System-Software-Engineer--HPC-Performance_JR2023599" value="applied"  data-job-id="nvidia-/job/US-IL-Champaign/System-Software-Engineer--HPC-Performance_JR2023599">
+              <span>Applied</span>
+            </label></div>
+        </div>
+        <div class="job-row">
+          <div class="job-info">
+            <a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314" target="_blank" rel="noopener" class="job-link">
+              <span class="company-tag company-nvidia">NVIDIA</span>
+              <span class="title">System Software Engineer, UEFI Firmware</span>
+              <span class="loc">2 Locations</span>
+              
+            </a>
+          </div>
+          <div class="status-toggle"><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314" value="need_to_apply" checked data-job-id="nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314">
+              <span>Need to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314" value="dont_want_to_apply"  data-job-id="nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314">
+              <span>Don't Want to Apply</span>
+            </label><label class="status-option">
+              <input type="radio" name="status-nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314" value="applied"  data-job-id="nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314">
+              <span>Applied</span>
+            </label></div>
+        </div>
+
+    
+
+    <footer>Tracking 468 previously-seen matching postings across 6 companies.</footer>
+  </div>
+
+  <script>
+    document.querySelectorAll('input[type="radio"]').forEach(input => {
+      input.addEventListener('change', function() {
+        const jobId = this.dataset.jobId;
+        const status = this.value;
+        localStorage.setItem('job-status-' + jobId, status);
+      });
+    });
+
+    document.querySelectorAll('input[type="radio"]').forEach(input => {
+      const jobId = input.dataset.jobId;
+      const savedStatus = localStorage.getItem('job-status-' + jobId);
+      if (savedStatus && input.value === savedStatus) {
+        input.checked = true;
+      }
+    });
+  </script>
+</body>
+</html>
