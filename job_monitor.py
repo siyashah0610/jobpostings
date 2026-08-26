@@ -19,6 +19,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
+try:
+    from playwright.sync_api import sync_playwright
+    PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    PLAYWRIGHT_AVAILABLE = False
 
 ROOT = Path(__file__).parent
 DATA_FILE = ROOT / "data" / "seen_jobs.json"
@@ -226,168 +231,117 @@ def fetch_nvidia():
 
 
 def fetch_google():
-    """Fetch Google jobs from careers page."""
+    """Fetch Google jobs using headless browser if available."""
     jobs = []
-    urls = [
-        "https://www.google.com/careers",
-        "https://careers.google.com",
-        "https://www.google.com/about/careers/",
-    ]
+    if not PLAYWRIGHT_AVAILABLE:
+        return jobs
 
-    for base_url in urls:
-        try:
-            r = requests.get(base_url, headers=HEADERS, timeout=30)
-            if r.status_code == 200:
-                html = r.text
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto("https://www.google.com/careers", wait_until="networkidle", timeout=60000)
 
-                # Look for job titles in various formats
-                patterns = [
-                    r'"title"\s*:\s*"([^"]{5,200})"',
-                    r'<h[2-4][^>]*>\s*([A-Z][^<]{5,150})\s*</h[2-4]>',
-                    r'data-title="([^"]{5,200})"',
-                ]
+            # Wait for job listings to load
+            page.wait_for_timeout(3000)
+            html = page.content()
 
-                for pattern in patterns:
-                    for match in re.finditer(pattern, html, re.IGNORECASE):
-                        title = match.group(1).strip()
-                        if len(title) > 5 and not title.startswith("<"):
-                            job_id = f"google-{len(jobs)}"
-                            jobs.append({
-                                "id": job_id,
-                                "company": "Google",
-                                "title": title,
-                                "location": "",
-                                "url": base_url,
-                            })
+            # Extract job titles and links
+            for match in re.finditer(r'"title"\s*:\s*"([^"]{5,200})"', html):
+                title = match.group(1).strip()
+                if len(title) > 5:
+                    jobs.append({
+                        "id": f"google-{len(jobs)}",
+                        "company": "Google",
+                        "title": title,
+                        "location": "",
+                        "url": "https://www.google.com/careers",
+                    })
 
-                if jobs:
-                    break
-        except Exception:
-            continue
+            browser.close()
+    except Exception as e:
+        pass
 
-    seen, deduped = set(), []
-    for j in jobs:
-        if j["id"] not in seen:
-            seen.add(j["id"])
-            deduped.append(j)
-    return deduped[:100]
+    return jobs[:100]
 
 
 def fetch_waymo():
-    """Best-effort: waymo.com/joinus is a JS app with no documented public
-    API. This looks for embedded JSON in the page. Likely needs adjustment --
-    see README's troubleshooting section."""
+    """Fetch Waymo jobs using headless browser."""
     jobs = []
+    if not PLAYWRIGHT_AVAILABLE:
+        return jobs
+
     try:
-        r = requests.get("https://waymo.com/joinus/", headers=HEADERS, timeout=30)
-        r.raise_for_status()
-        html = r.text
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto("https://waymo.com/joinus/", wait_until="networkidle", timeout=60000)
 
-        # Try to find JSON data in multiple ways
-        patterns = [
-            r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>',
-            r'<script[^>]*type="application/json"[^>]*>(.*?)</script>',
-            r'"jobs?\s*":\s*(\[.*?\])',
-        ]
+            # Wait for job listings to load
+            page.wait_for_timeout(3000)
+            html = page.content()
 
-        blob_text = html
-        for pattern in patterns:
-            m = re.search(pattern, html, re.DOTALL)
-            if m:
-                blob_text = m.group(1)
-                break
+            # Extract job titles
+            for match in re.finditer(r'"title"\s*:\s*"([^"]{3,150})"', html):
+                title = match.group(1).strip()
+                if len(title) > 3:
+                    jobs.append({
+                        "id": f"waymo-{len(jobs)}",
+                        "company": "Waymo",
+                        "title": title,
+                        "location": "",
+                        "url": "https://waymo.com/joinus/",
+                    })
 
-        # Look for job titles and IDs in the JSON data
-        for jm in re.finditer(r'"title"\s*:\s*"([^"]{3,150})"', blob_text):
-            title = jm.group(1)
-            # Try to extract ID near the title
-            id_match = re.search(r'"id"\s*:\s*"([\w-]+)"', blob_text[max(0, jm.start()-200):jm.end()+200])
-            jid = id_match.group(1) if id_match else title.replace(" ", "-")[:50]
-
-            jobs.append({
-                "id": f"waymo-{jid}",
-                "company": "Waymo",
-                "title": title,
-                "location": "",
-                "url": "https://waymo.com/joinus/",
-            })
+            browser.close()
     except Exception:
         pass
 
-    seen, deduped = set(), []
-    for j in jobs:
-        if j["id"] not in seen:
-            seen.add(j["id"])
-            deduped.append(j)
-    return deduped
+    return jobs[:100]
 
 
 def fetch_meta():
-    """Best-effort: Meta does not publish a public careers API. Scrapes
-    whatever job data is embedded in metacareers.com/jobs today. This is the
-    most likely connector to break -- see README's troubleshooting section."""
+    """Fetch Meta jobs using headless browser."""
     jobs = []
+    if not PLAYWRIGHT_AVAILABLE:
+        return jobs
+
     try:
-        r = requests.get("https://www.metacareers.com/jobs", headers=HEADERS, timeout=30)
-        r.raise_for_status()
-        html = r.text
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto("https://www.metacareers.com/jobs", wait_until="networkidle", timeout=60000)
 
-        # Try multiple patterns for finding job data
-        patterns = [
-            r'"job_req_id"\s*:\s*"?(\d+)"?[^}]{0,300}?"title"\s*:\s*"([^"]{3,150})"',
-            r'"id"\s*:\s*"?(\d+)"?[^}]{0,300}?"title"\s*:\s*"([^"]{3,150})"',
-            r'"jobId"\s*:\s*"?(\d+)"?[^}]{0,300}?"title"\s*:\s*"([^"]{3,150})"',
-            r'"position_id"\s*:\s*"?(\d+)"?[^}]{0,300}?"title"\s*:\s*"([^"]{3,150})"',
-        ]
+            # Wait for job listings to load
+            page.wait_for_timeout(3000)
+            html = page.content()
 
-        for pattern in patterns:
-            for jm in re.finditer(pattern, html, re.DOTALL | re.IGNORECASE):
-                jid, title = jm.group(1), jm.group(2)
-                jobs.append({
-                    "id": f"meta-{jid}",
-                    "company": "Meta",
-                    "title": title,
-                    "location": "",
-                    "url": f"https://www.metacareers.com/jobs/{jid}",
-                })
-            if jobs:
-                break
+            # Extract job titles and IDs
+            for match in re.finditer(r'"title"\s*:\s*"([^"]{3,150})"', html):
+                title = match.group(1).strip()
+                if len(title) > 3:
+                    jobs.append({
+                        "id": f"meta-{len(jobs)}",
+                        "company": "Meta",
+                        "title": title,
+                        "location": "",
+                        "url": "https://www.metacareers.com/jobs",
+                    })
 
-        # If still no jobs, try a simpler pattern just for titles
-        if not jobs:
-            for jm in re.finditer(r'"title"\s*:\s*"([^"]{3,150})"', html):
-                title = jm.group(1)
-                jid = re.search(r'"id"\s*:\s*"?(\d+)"?', html[max(0, jm.start()-300):jm.start()])
-                if not jid:
-                    jid = title.replace(" ", "-")[:50]
-                else:
-                    jid = jid.group(1)
-
-                jobs.append({
-                    "id": f"meta-{jid}",
-                    "company": "Meta",
-                    "title": title,
-                    "location": "",
-                    "url": f"https://www.metacareers.com/jobs/{jid}",
-                })
-
+            browser.close()
     except Exception:
         pass
 
-    seen, deduped = set(), []
-    for j in jobs:
-        if j["id"] not in seen:
-            seen.add(j["id"])
-            deduped.append(j)
-    return deduped
+    return jobs[:100]
 
 
 FETCHERS = {
     "Anthropic": fetch_anthropic,
     "OpenAI": fetch_openai,
     "NVIDIA": fetch_nvidia,
-    # Google, Waymo, Meta disabled - they use JS rendering with no job data in initial HTML
-    # Would require Selenium/Playwright headless browser support which is too complex for this workflow
+    "Google": fetch_google,
+    "Waymo": fetch_waymo,
+    "Meta": fetch_meta,
 }
 
 
