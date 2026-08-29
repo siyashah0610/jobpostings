@@ -543,6 +543,13 @@
     "title": "Data Engineering Manager, Product",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5125387008"
   },
+  "anthropic-5126008008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-08-29",
+    "title": "Strategic Account Executive, Tech",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5126008008"
+  },
   "anthropic-5134895008": {
     "company": "Anthropic",
     "first_seen": "2026-08-26",
@@ -838,13 +845,6 @@
     "first_seen": "2026-08-26",
     "title": "Technical Program Manager, Launches  ",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5208193008"
-  },
-  "anthropic-5208289008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-08-26",
-    "title": "Commercial Counsel, Platform & Marketplace",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5208289008"
   },
   "anthropic-5209661008": {
     "apply_status": "need_to_apply",
@@ -2026,13 +2026,6 @@
     "title": "Enterprise Integrated Campaign Manager",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391995008"
   },
-  "anthropic-5392054008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-08-27",
-    "title": "Product Designer, Core Apps",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392054008"
-  },
   "anthropic-5392184008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
@@ -2325,6 +2318,13 @@
     "title": "Applied AI Architect, Strategic Enterprise Tech",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409008008"
   },
+  "anthropic-5409055008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-08-29",
+    "title": "Director, Finance Systems - Revenue Systems Engineering",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409055008"
+  },
   "anthropic-5409569008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
@@ -2339,26 +2339,26 @@
     "title": "Product Manager, Multi-Cloud Trust & Safety",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409934008"
   },
-  "nvidia-/job/US-CA-Remote/Industry-Partner-Business-Manager_JR2022252": {
+  "nvidia-/job/US-CA-Santa-Clara/ATE-Test-Engineer_JR2021950": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "Industry Partner Business Manager",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Industry-Partner-Business-Manager_JR2022252"
+    "first_seen": "2026-08-29",
+    "title": "ATE Test Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ATE-Test-Engineer_JR2021950"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Customer-Solutions-and-Applications-Engineer_JR2024727": {
+  "nvidia-/job/US-CA-Santa-Clara/Characterization-Product-Development-Engineer_JR2021756": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "Customer Solutions and Applications Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Customer-Solutions-and-Applications-Engineer_JR2024727"
+    "first_seen": "2026-08-29",
+    "title": "Characterization Product Development Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Characterization-Product-Development-Engineer_JR2021756"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Director--System-Level-Testing---Product-Development-Engineering_JR2023409": {
+  "nvidia-/job/US-CA-Santa-Clara/Director--Engineering---Autonomous-Vehicles_JR2023529": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "Director, System Level Testing - Product Development Engineering",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Director--System-Level-Testing---Product-Development-Engineering_JR2023409"
+    "first_seen": "2026-08-29",
+    "title": "Director, Engineering - Autonomous Vehicles",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Director--Engineering---Autonomous-Vehicles_JR2023529"
   },
   "nvidia-/job/US-CA-Santa-Clara/HSIO-Functional-and-Power-Management-Engineer_JR2013743": {
     "apply_status": "need_to_apply",
@@ -2367,47 +2367,75 @@
     "title": "GPU/SOC Low-Power Feature Architect - HSIO",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/HSIO-Functional-and-Power-Management-Engineer_JR2013743"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Manager--Deep-Learning-Algorithms_JR2020646": {
+  "nvidia-/job/US-CA-Santa-Clara/Manager--Product-Development-Engineering---HBM_JR2021325": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "Engineering Manager, LLM Inference & Deployment at Scale",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Deep-Learning-Algorithms_JR2020646"
+    "first_seen": "2026-08-29",
+    "title": "Manager, Product Development Engineering - HBM",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Product-Development-Engineering---HBM_JR2021325"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Manager--Silicon-Operations-Production-Planning_JR2014495-1": {
+  "nvidia-/job/US-CA-Santa-Clara/Principal-System-Engineer--Operations_JR2022354": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "Manager, Silicon Operations Production Planning",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Silicon-Operations-Production-Planning_JR2014495-1"
+    "first_seen": "2026-08-29",
+    "title": "Principal System Engineer, Operations",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-System-Engineer--Operations_JR2022354"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Manager--Supply-Chain-Planning---Wafers_JR2022635": {
+  "nvidia-/job/US-CA-Santa-Clara/Product-Development-Engineer----Post-Si-Characterization_JR2023281": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "Manager, Supply Chain Planning - Wafers",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Supply-Chain-Planning---Wafers_JR2022635"
+    "first_seen": "2026-08-29",
+    "title": "Product Development Engineer -- Post-Si Characterization",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Development-Engineer----Post-Si-Characterization_JR2023281"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Product-Evaluations-Lead---Gen-AI-Software_JR2021025": {
+  "nvidia-/job/US-CA-Santa-Clara/Product-Engineer---Datacenter_JR2023146": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "Product Evaluations Lead - Gen AI Software",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Evaluations-Lead---Gen-AI-Software_JR2021025"
+    "first_seen": "2026-08-29",
+    "title": "Product Engineer - Datacenter",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Engineer---Datacenter_JR2023146"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Compute-System-Software-Engineer_JR2022574": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Board-Product-Development-Engineer_JR2022464": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "Senior Compute System Software Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Compute-System-Software-Engineer_JR2022574"
+    "first_seen": "2026-08-29",
+    "title": "Senior Board Product Development Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Board-Product-Development-Engineer_JR2022464"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Manager--Software-Engineering---Agentic-IT-Operations_JR2023714": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Commodity-Manager---PCB_JR2023077": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "Senior Manager, Software Engineering - Agentic IT Operations",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Software-Engineering---Agentic-IT-Operations_JR2023714"
+    "first_seen": "2026-08-29",
+    "title": "Senior Commodity Manager - PCB",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Commodity-Manager---PCB_JR2023077"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Commodity-Manager---PCB_JR2023078": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-08-29",
+    "title": "Senior Commodity Manager - PCB",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Commodity-Manager---PCB_JR2023078"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Factory-Planner--Repair-Operations_JR2023348": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-08-29",
+    "title": "Senior Factory Planner, Repair Operations",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Factory-Planner--Repair-Operations_JR2023348"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Hardware-Product-Quality-Manager--PQM_JR2022611": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-08-29",
+    "title": "Senior Hardware Product Quality Manager, PQM",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Hardware-Product-Quality-Manager--PQM_JR2022611"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-NPI-Program-Manager_JR2021498": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-08-29",
+    "title": "Senior NPI Program Manager",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-NPI-Program-Manager_JR2021498"
   },
   "nvidia-/job/US-CA-Santa-Clara/Senior-Post-Silicon-Low-Power-Integration-Engineer_JR2014458": {
     "apply_status": "need_to_apply",
@@ -2416,12 +2444,47 @@
     "title": "Low-Power Feature Validation & Bring-Up Engineer",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Post-Silicon-Low-Power-Integration-Engineer_JR2014458"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-System-Test-Engineer_JR2021837": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Product-Development-Engineer_JR2019271": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "Senior System Test Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Test-Engineer_JR2021837"
+    "first_seen": "2026-08-29",
+    "title": "Senior Product Development Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Product-Development-Engineer_JR2019271"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Product-Engineer---Datacenter_JR2023145": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-08-29",
+    "title": "Senior Product Engineer - Datacenter",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Product-Engineer---Datacenter_JR2023145"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Product-Quality-Engineer--Board---Automotive_JR2021690": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-08-29",
+    "title": "Senior Product Quality Engineer, Board \u2013 Automotive",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Product-Quality-Engineer--Board---Automotive_JR2021690"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Product-Quality-Engineer--Chip---Automotive_JR2022860": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-08-29",
+    "title": "Senior Product Quality Engineer, Chip - Automotive",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Product-Quality-Engineer--Chip---Automotive_JR2022860"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-RMA-Customer-Service-Transformation-Engineer_JR2021539": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-08-29",
+    "title": "Senior RMA Customer Service Transformation Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-RMA-Customer-Service-Transformation-Engineer_JR2021539"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Services-Supply-Chain-Inventory-Management-and-Control-Engineer_JR2021477": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-08-29",
+    "title": "Senior Services Supply Chain Inventory Management and Control Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Services-Supply-Chain-Inventory-Management-and-Control-Engineer_JR2021477"
   },
   "nvidia-/job/US-CA-Santa-Clara/Senior-Technical-Program-Manager---Tegra_JR2024717": {
     "apply_status": "need_to_apply",
@@ -2430,19 +2493,26 @@
     "title": "Senior Technical Program Manager - Tegra",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Technical-Program-Manager---Tegra_JR2024717"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Software-Solutions-Architect--NVIS_JR2019884-1": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Technical-Program-Manager--Supply-Chain-Business-Transformation_JR2023862": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "Software Solutions Architect, NVIS",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Solutions-Architect--NVIS_JR2019884-1"
+    "first_seen": "2026-08-29",
+    "title": "Senior Technical Program Manager, Supply Chain Business Transformation",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Technical-Program-Manager--Supply-Chain-Business-Transformation_JR2023862"
   },
-  "nvidia-/job/US-CA-Santa-Clara/System-Software-Engineer--Engineering-Workflow-Platform_JR2018371": {
+  "nvidia-/job/US-CA-Santa-Clara/System-Level-Product-Development-Engineer_JR2023455": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "System Software Engineer, Engineering Workflow Platform",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Engineering-Workflow-Platform_JR2018371"
+    "first_seen": "2026-08-29",
+    "title": "System Level Product Development Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Level-Product-Development-Engineer_JR2023455"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Test-Methodology-Engineer_JR2022767": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-08-29",
+    "title": "Test Methodology Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Test-Methodology-Engineer_JR2022767"
   },
   "nvidia-/job/US-NC-Durham/Senior-System-Software-Engineer---Data-Center-Compute-Diagnostics_JR2022439": {
     "apply_status": "need_to_apply",
@@ -2450,13 +2520,6 @@
     "first_seen": "2026-08-28",
     "title": "Senior System Software Engineer \u2013 Data Center Compute Diagnostics",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Durham/Senior-System-Software-Engineer---Data-Center-Compute-Diagnostics_JR2022439"
-  },
-  "nvidia-/job/Vietnam-Ho-Chi-Minh-City/Senior-SWQA-Test-Developer-Engineer--SDET_JR2024507": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-08-28",
-    "title": "Senior SWQA Test Developer Engineer, SDET",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Vietnam-Ho-Chi-Minh-City/Senior-SWQA-Test-Developer-Engineer--SDET_JR2024507"
   },
   "openai-00205d4e-9933-4057-8115-50b08d112ad1": {
     "apply_status": "need_to_apply",
@@ -2757,13 +2820,6 @@
     "first_seen": "2026-08-26",
     "title": "Machine Learning Engineer, Multimodal Perception and Authentication",
     "url": "https://jobs.ashbyhq.com/openai/1b268692-70d8-46c2-a347-2f7705b5c174"
-  },
-  "openai-1b65e981-2cd2-408d-8351-2e2fb1351033": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-08-26",
-    "title": "Strategic Operations Lead, User Safety & Risk Operations",
-    "url": "https://jobs.ashbyhq.com/openai/1b65e981-2cd2-408d-8351-2e2fb1351033"
   },
   "openai-1b86ec8e-fe34-452d-bbff-6619579e7385": {
     "apply_status": "need_to_apply",
@@ -4736,13 +4792,6 @@
     "first_seen": "2026-08-26",
     "title": "Forward Deployed Engineer (FDE), Healthcare - Seattle",
     "url": "https://jobs.ashbyhq.com/openai/a4332746-163e-4506-b62a-90758fb7a950"
-  },
-  "openai-a4787fb2-94d7-4b8e-b82c-093663e4ee85": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-08-26",
-    "title": "Business Operations Partner, Transportation Program",
-    "url": "https://jobs.ashbyhq.com/openai/a4787fb2-94d7-4b8e-b82c-093663e4ee85"
   },
   "openai-a4981ed2-331a-4927-a95f-fabb64c9c799": {
     "apply_status": "need_to_apply",
