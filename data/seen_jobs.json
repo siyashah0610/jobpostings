@@ -1508,13 +1508,6 @@
     "title": "Strategic Deals Lead, Compute Infrastructure ",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358108008"
   },
-  "anthropic-5358112008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-08-26",
-    "title": "Cash Manager, Treasury",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358112008"
-  },
   "anthropic-5358114008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
@@ -1542,13 +1535,6 @@
     "first_seen": "2026-08-26",
     "title": "Tax Director, Provision & Compliance",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358122008"
-  },
-  "anthropic-5358130008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-08-28",
-    "title": "Corporate Finance & Strategy, Cash Flow Forecasting",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358130008"
   },
   "anthropic-5361411008": {
     "apply_status": "need_to_apply",
@@ -2483,19 +2469,26 @@
     "title": "DFT Methodology Engineer",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/DFT-Methodology-Engineer_JR2020884"
   },
+  "nvidia-/job/US-CA-Santa-Clara/Distinguished-Software-Architect---Deep-Learning-and-HPC-Communications_JR1980127": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-09-06",
+    "title": "Distinguished Software Architect - Deep Learning and HPC Communications",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Distinguished-Software-Architect---Deep-Learning-and-HPC-Communications_JR1980127"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/EDA-License-Engineer_JR2018563": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-09-06",
+    "title": "EDA License Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/EDA-License-Engineer_JR2018563"
+  },
   "nvidia-/job/US-CA-Santa-Clara/Global-Commodity-Manager---Interconnects-and-Cables_JR2021719": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
     "first_seen": "2026-09-05",
     "title": "Global Commodity Manager \u2013 Interconnects and Cables",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Global-Commodity-Manager---Interconnects-and-Cables_JR2021719"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Hardware-Systems-Application-Engineer---CSP_JR2013593": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "Hardware Systems Application Engineer - CSP",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Hardware-Systems-Application-Engineer---CSP_JR2013593"
   },
   "nvidia-/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726": {
     "apply_status": "need_to_apply",
@@ -2504,33 +2497,19 @@
     "title": "Engineering Manager - OpenBMC Platform",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Notebook-Hardware-Application-Engineer_JR2013587": {
+  "nvidia-/job/US-CA-Santa-Clara/Principal-Firmware-Engineer---Server-Manageability-and-Observability_JR2001996": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "Notebook Hardware Application Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Notebook-Hardware-Application-Engineer_JR2013587"
+    "first_seen": "2026-09-06",
+    "title": "Principal Firmware Engineer \u2013 Server Manageability and Observability",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Firmware-Engineer---Server-Manageability-and-Observability_JR2001996"
   },
-  "nvidia-/job/US-CA-Santa-Clara/PCB-Design-Layout-Engineer_JR2001781": {
+  "nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "PCB Design Layout Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PCB-Design-Layout-Engineer_JR2001781"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/PCB-Design-Layout-Engineer_JR2011740": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "PCB Design Layout Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PCB-Design-Layout-Engineer_JR2011740"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/PCB-Design-Layout-Engineer_JR2020277": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "PCB Design Layout Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PCB-Design-Layout-Engineer_JR2020277"
+    "first_seen": "2026-09-06",
+    "title": "Principal Software Engineer \u2013 CSP Engagements",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405"
   },
   "nvidia-/job/US-CA-Santa-Clara/Senior-ASIC-Design-Engineer---DFX_JR2020883": {
     "apply_status": "need_to_apply",
@@ -2602,26 +2581,12 @@
     "title": "Senior DFT Power Methodology Engineer",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-DFT-Power-Methodology-Engineer_JR2021098-1"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-DevOps-Engineer--Cloud-Simulation-Infrastructure_JR2021039": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Firmware-Engineer---CSP-Engagements_JR1999599": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "Senior DevOps Engineer, Cloud Simulation Infrastructure",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-DevOps-Engineer--Cloud-Simulation-Infrastructure_JR2021039"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Engineer---Enterprise-Data-Governance_JR2024554": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "Senior Engineer - Enterprise Data Governance",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Engineer---Enterprise-Data-Governance_JR2024554"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Mechanical-Product-Design-Engineer_JR2001380": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "Senior Mechanical Product Design Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Mechanical-Product-Design-Engineer_JR2001380"
+    "first_seen": "2026-09-06",
+    "title": "Senior Firmware Engineer \u2013 CSP Engagements",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Firmware-Engineer---CSP-Engagements_JR1999599"
   },
   "nvidia-/job/US-CA-Santa-Clara/Senior-NPI-Technical-Program-Manager---Operations_JR2012473-1": {
     "apply_status": "need_to_apply",
@@ -2629,13 +2594,6 @@
     "first_seen": "2026-09-05",
     "title": "Senior NPI Technical Program Manager - Operations",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-NPI-Technical-Program-Manager---Operations_JR2012473-1"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Signal-Integrity-Engineer---Cryogenic-Interconnects_JR2020264": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "Senior Signal Integrity Engineer \u2013 Cryogenic Interconnects",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Signal-Integrity-Engineer---Cryogenic-Interconnects_JR2020264"
   },
   "nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--GPU-Communications-and-Networking_JR1997186": {
     "apply_status": "need_to_apply",
@@ -2651,40 +2609,12 @@
     "title": "Senior EDA Engineer, SOC Design Methodology",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--SOC-Design-Methodology_JR2022268"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-System-Design-Engineer_JR2002040": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "Senior System Design Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Design-Engineer_JR2002040"
-  },
   "nvidia-/job/US-CA-Santa-Clara/Senior-Technical-Program-Manager---VLSI_JR2013354": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
     "first_seen": "2026-09-05",
     "title": "Senior Technical Program Manager \u2013 VLSI",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Technical-Program-Manager---VLSI_JR2013354"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Solutions-Architect--WWFO---New-College-Graduate-2027_JR2024999": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "Solutions Architect, WWFO - New College Graduate 2027",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Solutions-Architect--WWFO---New-College-Graduate-2027_JR2024999"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/System-Design-Engineer_JR1968313": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "System Design Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Design-Engineer_JR1968313"
-  },
-  "nvidia-/job/US-OR-Hillsboro/Data-Center-System-Architect_JR2021947": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-05",
-    "title": "Data Center System Architect",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-OR-Hillsboro/Data-Center-System-Architect_JR2021947"
   },
   "openai-00207abc-49b7-465c-a219-f7c1140f8047": {
     "apply_status": "need_to_apply",
