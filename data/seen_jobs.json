@@ -179,12 +179,6 @@
     "title": "Data Engineer",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/4956672008"
   },
-  "anthropic-4959329008": {
-    "company": "Anthropic",
-    "first_seen": "2026-08-26",
-    "title": "Enterprise Account Executive, State & Local Sales",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4959329008"
-  },
   "anthropic-4970314008": {
     "company": "Anthropic",
     "first_seen": "2026-08-26",
@@ -504,18 +498,19 @@
     "title": "Finance & Strategy, Datacenter Strategic Initiatives",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5107489008"
   },
+  "anthropic-5108111008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-09-10",
+    "title": "Strategic Account Executive, Tech",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5108111008"
+  },
   "anthropic-5108695008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
     "first_seen": "2026-08-26",
     "title": "Technical Program Manager, Safeguards (Infrastructure & Evals)",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5108695008"
-  },
-  "anthropic-5109135008": {
-    "company": "Anthropic",
-    "first_seen": "2026-08-26",
-    "title": "Strategic Account Executive, Tech",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5109135008"
   },
   "anthropic-5110511008": {
     "company": "Anthropic",
@@ -670,24 +665,11 @@
     "title": "Global Senior Equity Program Manager",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5162711008"
   },
-  "anthropic-5163060008": {
-    "company": "Anthropic",
-    "first_seen": "2026-08-26",
-    "title": "Finance & Strategy, GTM - Post Sales ",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5163060008"
-  },
   "anthropic-5164820008": {
     "company": "Anthropic",
     "first_seen": "2026-08-26",
     "title": "Product Manager, Safeguards (Child Safety)",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5164820008"
-  },
-  "anthropic-5170628008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-09-03",
-    "title": "Mega Account Executive, Meta",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5170628008"
   },
   "anthropic-5171187008": {
     "company": "Anthropic",
@@ -1170,6 +1152,13 @@
     "title": "Manager, Account Executive - Financial Services",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5282833008"
   },
+  "anthropic-5283063008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-09-10",
+    "title": "Software Engineer, Research Infrastructure",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5283063008"
+  },
   "anthropic-5284500008": {
     "company": "Anthropic",
     "first_seen": "2026-08-26",
@@ -1589,13 +1578,6 @@
     "first_seen": "2026-08-26",
     "title": "Staff+ Software Engineer, Enterprise AI Products",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5368034008"
-  },
-  "anthropic-5368074008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-08-26",
-    "title": "Manager, IT Support",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5368074008"
   },
   "anthropic-5368166008": {
     "company": "Anthropic",
@@ -2499,12 +2481,33 @@
     "title": "Warehouse and Logistics Manager - North America",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5416985008"
   },
+  "anthropic-5418323008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-09-10",
+    "title": "Performance Engineer, Inference Engine",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5418323008"
+  },
   "anthropic-5418610008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
     "first_seen": "2026-09-09",
     "title": "Data Engineer, GTM",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5418610008"
+  },
+  "anthropic-5418743008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-09-10",
+    "title": " Executive Escalations Manager",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5418743008"
+  },
+  "anthropic-5418748008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-09-10",
+    "title": "Partnerships Manager, US Public Health",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5418748008"
   },
   "anthropic-5418977008": {
     "apply_status": "need_to_apply",
@@ -2513,61 +2516,131 @@
     "title": "Security Engineer, Offensive Security",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5418977008"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Go-to-Market-Product-Manager_JR2022366": {
+  "anthropic-5419868008": {
     "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-09",
-    "title": "Go-to-Market Product Manager",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Go-to-Market-Product-Manager_JR2022366"
+    "company": "Anthropic",
+    "first_seen": "2026-09-10",
+    "title": "Staff+ Software Engineer, ML Sampling Path",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5419868008"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Principal-Applied-Research-Engineer--Content-Authenticity_JR2025353": {
+  "anthropic-5419869008": {
     "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-09",
-    "title": "Principal Applied Research Engineer, Content Authenticity",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Applied-Research-Engineer--Content-Authenticity_JR2025353"
+    "company": "Anthropic",
+    "first_seen": "2026-09-10",
+    "title": "Staff+ Software Engineer, ML Inference Path",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5419869008"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Principal-Site-Reliability-Engineer_JR2023973": {
+  "anthropic-5420115008": {
     "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-09-09",
-    "title": "Principal Site Reliability Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Site-Reliability-Engineer_JR2023973"
+    "company": "Anthropic",
+    "first_seen": "2026-09-10",
+    "title": "Staff Software Engineer: Compute",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5420115008"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Infrastructure-Engineer---AI--Automation--Observability-and-Monitoring_JR2025003": {
+  "nvidia-/job/US-CA-Santa-Clara/Director--Global-Event-Security_JR2023116": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-09-09",
-    "title": "Senior Infrastructure Engineer - AI, Automation, Observability and Monitoring",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Infrastructure-Engineer---AI--Automation--Observability-and-Monitoring_JR2025003"
+    "first_seen": "2026-09-10",
+    "title": "Director, Global Event Security",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Director--Global-Event-Security_JR2023116"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Memory-Controller-Verification-Engineer_JR2011559": {
+  "nvidia-/job/US-CA-Santa-Clara/Distinguished-Software-Architect---Deep-Learning-and-HPC-Communications_JR1980127": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-09-09",
-    "title": "Senior Memory Controller Verification Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Memory-Controller-Verification-Engineer_JR2011559"
+    "first_seen": "2026-09-10",
+    "title": "Distinguished Software Architect - Deep Learning and HPC Communications",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Distinguished-Software-Architect---Deep-Learning-and-HPC-Communications_JR1980127"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Network-Security-Architect_JR2025110": {
+  "nvidia-/job/US-CA-Santa-Clara/Global-Commodity-Manager--Semiconductors_JR2025494": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-09-09",
-    "title": "Senior Network Security Architect",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Network-Security-Architect_JR2025110"
+    "first_seen": "2026-09-10",
+    "title": "Global Commodity Manager, Semiconductors",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Global-Commodity-Manager--Semiconductors_JR2025494"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--Cosmos-Infrastructure-and-End-to-End-Performance_JR2024930-1": {
+  "nvidia-/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-09-09",
-    "title": "Senior Software Engineer, Cosmos Infrastructure and End to End Performance",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Cosmos-Infrastructure-and-End-to-End-Performance_JR2024930-1"
+    "first_seen": "2026-09-10",
+    "title": "Engineering Manager - OpenBMC Platform",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Staff-Site-Reliability-Engineer---AI-Platform-Runtime_JR2023969": {
+  "nvidia-/job/US-CA-Santa-Clara/Manager--Software-TPM---Server-Firmware-and-System-Software_JR2007277-1": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-09-09",
-    "title": "Staff Site Reliability Engineer - AI Platform Runtime",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Staff-Site-Reliability-Engineer---AI-Platform-Runtime_JR2023969"
+    "first_seen": "2026-09-10",
+    "title": "Director, Software TPM - Server Firmware and System Software",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Software-TPM---Server-Firmware-and-System-Software_JR2007277-1"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Principal-Block-File-Storage-Software-Engineer--Linux---DGX-Cloud_JR2024421": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-09-10",
+    "title": "Principal Block and File Storage Software Engineer, Linux - DGX Cloud",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Block-File-Storage-Software-Engineer--Linux---DGX-Cloud_JR2024421"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-09-10",
+    "title": "Principal Software Engineer \u2013 CSP Engagements",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Principal-Software-Engineer--At-Scale-Reliability-and-Fleet-Intelligence---CSP-Engagements_JR2020320": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-09-10",
+    "title": "Principal Software Engineer, At-Scale Reliability and Fleet Intelligence \u2014 CSP Engagements",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--At-Scale-Reliability-and-Fleet-Intelligence---CSP-Engagements_JR2020320"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Firmware-Engineer---CSP-Engagements_JR1999599": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-09-10",
+    "title": "Senior Firmware Engineer \u2013 CSP Engagements",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Firmware-Engineer---CSP-Engagements_JR1999599"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Platform-Security-Engineer---Device-Trust--Attestation-and-Secure-Browser_JR2024769": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-09-10",
+    "title": "Senior Platform Security Engineer \u2013 Device Trust, Attestation and Secure Browser",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Security-Engineer---Device-Trust--Attestation-and-Secure-Browser_JR2024769"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer--Data-Platform_JR2010934": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-09-10",
+    "title": "Senior Software Engineer, Data Platform",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Data-Platform_JR2010934"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Storage-Platform-Engineer_JR2024601-1": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-09-10",
+    "title": "Senior Storage Platform Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Platform-Engineer_JR2024601-1"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---Infrastructure_JR2024492": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-09-10",
+    "title": "Senior Systems Software Engineer - Infrastructure",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---Infrastructure_JR2024492"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Staff-Security-Engineer---PAM-and-Agentic-Identity_JR2024380": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-09-10",
+    "title": "Staff Security Engineer - PAM and Agentic Identity",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Staff-Security-Engineer---PAM-and-Agentic-Identity_JR2024380"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Staff-System-Software-Engineer--RTL-to-GDS-Flow-Platform_JR2018368": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-09-10",
+    "title": "Senior System Software Engineer, RTL-to-GDS Flow Platform",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Staff-System-Software-Engineer--RTL-to-GDS-Flow-Platform_JR2018368"
   },
   "openai-00207abc-49b7-465c-a219-f7c1140f8047": {
     "apply_status": "need_to_apply",
@@ -2674,6 +2747,13 @@
     "title": "GTM Strategy & Operations, Professional Services",
     "url": "https://jobs.ashbyhq.com/openai/08e8d03a-df94-46af-8664-cd9aab1af445"
   },
+  "openai-099374c6-3cbb-4964-9a1d-31e6e5b5dcd2": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Senior Manager, EHS - Robotics",
+    "url": "https://jobs.ashbyhq.com/openai/099374c6-3cbb-4964-9a1d-31e6e5b5dcd2"
+  },
   "openai-099dd6af-b017-4a60-85d5-4c79da3a9ead": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -2730,6 +2810,13 @@
     "title": "Software Engineer, Host Assurance",
     "url": "https://jobs.ashbyhq.com/openai/0b9e565a-ae5f-40fc-8350-b59f71f76df1"
   },
+  "openai-0ca205c9-42ec-4c19-8d43-00700b8c7fd2": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Account Director, Manufacturing",
+    "url": "https://jobs.ashbyhq.com/openai/0ca205c9-42ec-4c19-8d43-00700b8c7fd2"
+  },
   "openai-0e078d07-fb0b-4893-b90a-f50e413f3e13": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -2778,6 +2865,13 @@
     "title": "Hardware Technical Program Manager, Infrastructure Partner Operations",
     "url": "https://jobs.ashbyhq.com/openai/0fae998b-5295-4567-b4b5-b20cf0346da3"
   },
+  "openai-0fc4742f-21f9-40a3-925e-adeb0a6920c1": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Training - Runtime Foundations Engineer",
+    "url": "https://jobs.ashbyhq.com/openai/0fc4742f-21f9-40a3-925e-adeb0a6920c1"
+  },
   "openai-103d7043-28ec-4639-9c8d-0910083a1755": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -2791,13 +2885,6 @@
     "first_seen": "2026-09-04",
     "title": "Software Engineer, Native Learning Experiences",
     "url": "https://jobs.ashbyhq.com/openai/1098311d-3a07-40ad-8107-6245a492a0b3"
-  },
-  "openai-10c7fcdc-1f07-41e3-8e37-4d930898a648": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-08-26",
-    "title": "Growth Product Marketing Manager",
-    "url": "https://jobs.ashbyhq.com/openai/10c7fcdc-1f07-41e3-8e37-4d930898a648"
   },
   "openai-11c51b12-3ba0-4a7a-a0d2-ed0661324dc3": {
     "apply_status": "need_to_apply",
@@ -2820,13 +2907,6 @@
     "title": "Software Engineer, RL Training Infra",
     "url": "https://jobs.ashbyhq.com/openai/13995549-e8cc-498f-9eaa-1869067ac35b"
   },
-  "openai-13cdb1b1-8c21-4bff-8201-f7ca904e181d": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-08-26",
-    "title": "Facilities Operations Lead  - Compute",
-    "url": "https://jobs.ashbyhq.com/openai/13cdb1b1-8c21-4bff-8201-f7ca904e181d"
-  },
   "openai-1507068a-fe07-43e4-aaea-6fd1a00dc8d5": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -2847,6 +2927,13 @@
     "first_seen": "2026-08-26",
     "title": "Software Engineer, Productivity - Networking",
     "url": "https://jobs.ashbyhq.com/openai/17daedbd-b3fb-4e8c-a17c-8bbc9ec1d0b5"
+  },
+  "openai-18d65004-a399-4a33-80bc-10f33bff2ed0": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Physical Design Engineer, Forward Deployed Engineering",
+    "url": "https://jobs.ashbyhq.com/openai/18d65004-a399-4a33-80bc-10f33bff2ed0"
   },
   "openai-194a69ed-d7a2-4af8-9bec-67a4b7b58451": {
     "apply_status": "need_to_apply",
@@ -3044,6 +3131,13 @@
     "title": "Account Director, Strategic Banking",
     "url": "https://jobs.ashbyhq.com/openai/22344614-c6ea-4ab5-97e5-49e97a8c8488"
   },
+  "openai-23014bc8-37d4-4fd9-9a77-d95fdd33437f": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Hardware Strategic Sourcing Manager, Optics",
+    "url": "https://jobs.ashbyhq.com/openai/23014bc8-37d4-4fd9-9a77-d95fdd33437f"
+  },
   "openai-23662a5c-43c3-4754-a6e0-30f8cbf6d681": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -3099,13 +3193,6 @@
     "first_seen": "2026-08-26",
     "title": "Data Engineer, Core Experimentation",
     "url": "https://jobs.ashbyhq.com/openai/2796d32a-9f7c-4008-a2c5-50dd53b0f2fe"
-  },
-  "openai-2881fcec-3ab8-480c-813f-14769dcbf963": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-08-26",
-    "title": "Sales Strategy & Operations - Central ",
-    "url": "https://jobs.ashbyhq.com/openai/2881fcec-3ab8-480c-813f-14769dcbf963"
   },
   "openai-28c96920-a412-47c0-88f8-342790d779ff": {
     "apply_status": "need_to_apply",
@@ -3281,6 +3368,13 @@
     "title": "Software Engineer, Monetization ML Infrastructure",
     "url": "https://jobs.ashbyhq.com/openai/348ac6bf-a5c3-43d1-a14a-5f1a3c8d90fa"
   },
+  "openai-35e6355f-52fd-405e-b5b6-98b275666d39": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Research Program Manager, Governance",
+    "url": "https://jobs.ashbyhq.com/openai/35e6355f-52fd-405e-b5b6-98b275666d39"
+  },
   "openai-36e30720-0a32-4b7b-8172-e31ad0a20cdc": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -3407,13 +3501,6 @@
     "title": "Software Engineer, Scaled Abuse",
     "url": "https://jobs.ashbyhq.com/openai/3c67f712-697d-48d8-b05c-01be896e61da"
   },
-  "openai-3ce0949d-b028-44f1-983c-446bb7bb1881": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-08-26",
-    "title": "Software Engineer, Ads Monetization, Revenue Platform",
-    "url": "https://jobs.ashbyhq.com/openai/3ce0949d-b028-44f1-983c-446bb7bb1881"
-  },
   "openai-3d064454-c0c3-4225-bc2c-6d8c0f8735b2": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -3483,6 +3570,13 @@
     "first_seen": "2026-08-26",
     "title": "Backend Software Engineer, GTM Innovation",
     "url": "https://jobs.ashbyhq.com/openai/43174eb6-0ffe-4744-9323-c7969e7ea2e1"
+  },
+  "openai-43ba8b53-4643-4544-bb21-f13efe99e0a0": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Product Designer, Youth",
+    "url": "https://jobs.ashbyhq.com/openai/43ba8b53-4643-4544-bb21-f13efe99e0a0"
   },
   "openai-43c9fed6-4eb2-4db6-afc5-cd804279779b": {
     "apply_status": "need_to_apply",
@@ -3700,6 +3794,13 @@
     "title": "GRC Program Manager, US Government Compliance",
     "url": "https://jobs.ashbyhq.com/openai/550d0123-238c-4ad8-aaee-ea4a5a484639"
   },
+  "openai-56aafd17-7db9-473a-b3b4-957b6d926cdf": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Manufacturing Engineer, Motors & Actuators",
+    "url": "https://jobs.ashbyhq.com/openai/56aafd17-7db9-473a-b3b4-957b6d926cdf"
+  },
   "openai-56d541d3-02b5-44d8-b40b-4df72cdd0405": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -3769,6 +3870,13 @@
     "first_seen": "2026-08-26",
     "title": "Product Manager, Learning",
     "url": "https://jobs.ashbyhq.com/openai/5953fed7-1466-4e90-94c9-43716a55e032"
+  },
+  "openai-5a1a0c32-0b82-482a-8149-e6b096c3e732": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Android Engineer, ChatGPT Library Team",
+    "url": "https://jobs.ashbyhq.com/openai/5a1a0c32-0b82-482a-8149-e6b096c3e732"
   },
   "openai-5a4eed17-29d5-41cb-856e-09bfdaffe017": {
     "apply_status": "need_to_apply",
@@ -4267,13 +4375,6 @@
     "title": "Full Stack Software Engineer, Growth",
     "url": "https://jobs.ashbyhq.com/openai/77bc0b3a-35c1-4ecf-99c7-1b3b19d959ca"
   },
-  "openai-77fbf383-bb97-4006-9b2d-e5de2d6f79d3": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-08-26",
-    "title": "Software Engineer, API SDK",
-    "url": "https://jobs.ashbyhq.com/openai/77fbf383-bb97-4006-9b2d-e5de2d6f79d3"
-  },
   "openai-7809102e-e82a-4678-bf7c-221de8acc0d6": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -4603,6 +4704,13 @@
     "title": "Systems Integration Engineer, Build Systems | Consumer Devices",
     "url": "https://jobs.ashbyhq.com/openai/9104a37c-6ae0-499b-a2f7-2785e63b5f0c"
   },
+  "openai-910b44fb-6af7-4d26-8e25-9ba814fe5fd5": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Partnerships Operations Lead, OAI for Government",
+    "url": "https://jobs.ashbyhq.com/openai/910b44fb-6af7-4d26-8e25-9ba814fe5fd5"
+  },
   "openai-9117987a-7a59-449e-a702-89e8d0e8cb60": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -4813,6 +4921,13 @@
     "title": "Manager, Technical & Operational Accounting",
     "url": "https://jobs.ashbyhq.com/openai/9d4df58d-3afe-4076-a4f2-9f4301020392"
   },
+  "openai-9d6520c0-4c28-472f-ae1f-82b03ee9429d": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Engineering Manager, ChatGPT Search Infrastructure",
+    "url": "https://jobs.ashbyhq.com/openai/9d6520c0-4c28-472f-ae1f-82b03ee9429d"
+  },
   "openai-9e39d2ba-2076-4f44-9e07-c8520e9d5cdb": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -4897,19 +5012,19 @@
     "title": "Software Engineer, Monetization Delivery",
     "url": "https://jobs.ashbyhq.com/openai/a4ea79c8-e79f-4126-8c1f-032289024961"
   },
+  "openai-a5136d9d-c22a-4c12-a776-483f63ef1120": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Creative Director, Copy",
+    "url": "https://jobs.ashbyhq.com/openai/a5136d9d-c22a-4c12-a776-483f63ef1120"
+  },
   "openai-a58add97-1968-4d5c-b504-ab62bea12df3": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
     "first_seen": "2026-08-26",
     "title": "Software Engineer, Fleet Infrastructure",
     "url": "https://jobs.ashbyhq.com/openai/a58add97-1968-4d5c-b504-ab62bea12df3"
-  },
-  "openai-a6ab3111-7092-4da2-a7a6-71e01351bfda": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-08-26",
-    "title": "Software Engineer, API Agents",
-    "url": "https://jobs.ashbyhq.com/openai/a6ab3111-7092-4da2-a7a6-71e01351bfda"
   },
   "openai-a7f4ec2e-e93f-4f81-892a-cd8381f347fe": {
     "apply_status": "need_to_apply",
@@ -4931,6 +5046,13 @@
     "first_seen": "2026-08-26",
     "title": "Full-Stack SWE, Data Acquisition (Foundations)",
     "url": "https://jobs.ashbyhq.com/openai/a886ff48-b8a1-4e28-b468-296713a5ad78"
+  },
+  "openai-a8a421d1-c9bb-4e37-8418-4e4d6b2ba29d": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Mechanical Design Engineer, Motor Design & Prototyping",
+    "url": "https://jobs.ashbyhq.com/openai/a8a421d1-c9bb-4e37-8418-4e4d6b2ba29d"
   },
   "openai-a90cdb7c-1c33-4fca-9a96-26c236006f14": {
     "company": "OpenAI",
@@ -5070,6 +5192,13 @@
     "first_seen": "2026-08-26",
     "title": "Senior Program Manager, Consumer Device Safety Operations",
     "url": "https://jobs.ashbyhq.com/openai/b65f9125-2c3a-4507-bb20-6213952b5f2c"
+  },
+  "openai-b71906c2-51a9-4ad7-a744-2390ccdc1ad8": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Quality Engineer, Rack Infrastructure & Site Operations",
+    "url": "https://jobs.ashbyhq.com/openai/b71906c2-51a9-4ad7-a744-2390ccdc1ad8"
   },
   "openai-b7a2e30f-c5f6-4710-b53e-64d64bcce189": {
     "apply_status": "need_to_apply",
@@ -5301,6 +5430,13 @@
     "first_seen": "2026-08-26",
     "title": "Product Marketing Manager, IT Admin and Governance",
     "url": "https://jobs.ashbyhq.com/openai/c6cb3f11-8e1f-4e34-b407-6a3327e39f2e"
+  },
+  "openai-c717b98e-5394-4ad1-ae3f-e036717ad9b5": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-09-10",
+    "title": "Head of Partnerships, Digital Natives",
+    "url": "https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5"
   },
   "openai-c7c5ef17-af83-483c-a825-f461f9f63b17": {
     "apply_status": "need_to_apply",
