@@ -1579,13 +1579,6 @@
     "title": "Lead, Data Center Security Delivery (Construction to Operations)",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5389773008"
   },
-  "anthropic-5390155008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-08-26",
-    "title": "Customer Marketing Manager, Industries",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390155008"
-  },
   "anthropic-5390728008": {
     "company": "Anthropic",
     "first_seen": "2026-08-26",
@@ -2299,13 +2292,6 @@
     "title": "Staff+ Software Engineer, Distributed Systems ",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424404008"
   },
-  "anthropic-5425432008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-09-17",
-    "title": "Senior Manager, Regulatory Accounting & Disclosures",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5425432008"
-  },
   "anthropic-5426135008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
@@ -2831,54 +2817,75 @@
     "title": "Cybersecurity Sales Specialist",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5449091008"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Manager--Software-Engineering---Cumulus-Linux_JR2018585": {
+  "anthropic-5450099008": {
     "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-10-10",
-    "title": "Manager, Software Engineering - Cumulus Linux",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Software-Engineering---Cumulus-Linux_JR2018585"
+    "company": "Anthropic",
+    "first_seen": "2026-10-12",
+    "title": "Data Engineer, Billing & Payments",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5450099008"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Principal-Block-File-Storage-Software-Engineer--Linux---DGX-Cloud_JR2024421": {
+  "nvidia-/job/US-CA-Santa-Clara/Director--Boards-and-Systems-Supply-Planning_JR2027422": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-10-10",
-    "title": "Principal Block and File Storage Software Engineer, Linux - DGX Cloud",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Block-File-Storage-Software-Engineer--Linux---DGX-Cloud_JR2024421"
+    "first_seen": "2026-10-12",
+    "title": "Director, Boards and Systems Supply Planning",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Director--Boards-and-Systems-Supply-Planning_JR2027422"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Firmware-Engineer---CSP-Engagements_JR1999599": {
+  "nvidia-/job/US-CA-Santa-Clara/Field-Applications-Engineer--Embedded-Systems---NALA_JR2014493": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-10-11",
-    "title": "Senior Firmware Engineer \u2013 CSP Engagements",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Firmware-Engineer---CSP-Engagements_JR1999599"
+    "first_seen": "2026-10-12",
+    "title": "Field Applications Engineer, Embedded Systems - NALA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Field-Applications-Engineer--Embedded-Systems---NALA_JR2014493"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Software-Program-Manager---Datacenter-Compute-Server_JR1996363": {
+  "nvidia-/job/US-CA-Santa-Clara/North-America-Logistics-Execution-Program-Manager_JR1999876": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-10-10",
-    "title": "Senior Software Program Manager - Datacenter Compute Server",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Program-Manager---Datacenter-Compute-Server_JR1996363"
+    "first_seen": "2026-10-12",
+    "title": "North America Logistics Execution Program Manager",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/North-America-Logistics-Execution-Program-Manager_JR1999876"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Storage-Infrastructure-Software-Engineer_JR2026658": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Financial-Analyst---Graphics-Finance_JR2021000": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-10-11",
-    "title": "Senior Storage Infrastructure Software Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Infrastructure-Software-Engineer_JR2026658"
+    "first_seen": "2026-10-12",
+    "title": "Senior Financial Analyst - Graphics Finance",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Financial-Analyst---Graphics-Finance_JR2021000"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Mixed-Signal-Circuit-Design-Engineer_JR2027670": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-10-10",
-    "title": "Senior Systems Software Engineer, Data Center Platform Enablement",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870"
+    "first_seen": "2026-10-12",
+    "title": "Senior Mixed Signal Circuit Design Engineer",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Mixed-Signal-Circuit-Design-Engineer_JR2027670"
   },
-  "nvidia-/job/US-WA-Remote/Principal-Engineer--Security-Architecture---DGX-Cloud_JR2026132": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Security-Software-Engineer---AV-Platform_JR2027143": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-10-11",
-    "title": "Principal Engineer, Security Architecture - DGX Cloud",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Remote/Principal-Engineer--Security-Architecture---DGX-Cloud_JR2026132"
+    "first_seen": "2026-10-12",
+    "title": "Senior Security Software Engineer - AV Platform",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Security-Software-Engineer---AV-Platform_JR2027143"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer---Cloud_JR2022489": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-10-12",
+    "title": "Senior Site Reliability Engineer - Cloud",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer---Cloud_JR2022489"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Software-Engineer---GPU_JR2027781": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-10-12",
+    "title": "Senior Software Engineer - GPU",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---GPU_JR2027781"
+  },
+  "nvidia-/job/US-CA-Santa-Clara/Technical-Program-Manager---LPU-Software_JR2025461": {
+    "apply_status": "need_to_apply",
+    "company": "NVIDIA",
+    "first_seen": "2026-10-12",
+    "title": "Technical Program Manager - LPU Software",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Technical-Program-Manager---LPU-Software_JR2025461"
   },
   "openai-00207abc-49b7-465c-a219-f7c1140f8047": {
     "apply_status": "need_to_apply",
@@ -4111,13 +4118,6 @@
     "first_seen": "2026-10-03",
     "title": "Strategic Sourcing Leader, Professional Services",
     "url": "https://jobs.ashbyhq.com/openai/5b334d54-fc7f-4de7-a37f-5c759c79beb6"
-  },
-  "openai-5b85c0cc-3f19-4b96-9bd3-3b7521e54f44": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-08-28",
-    "title": "Strategic Finance, International & Marketing",
-    "url": "https://jobs.ashbyhq.com/openai/5b85c0cc-3f19-4b96-9bd3-3b7521e54f44"
   },
   "openai-5b9cb831-673b-479d-a88a-dddf476b736f": {
     "apply_status": "need_to_apply",
@@ -6266,13 +6266,6 @@
     "first_seen": "2026-09-01",
     "title": "Engineering Manager, Core Services ",
     "url": "https://jobs.ashbyhq.com/openai/ebc65e7d-d86a-4066-aa82-3a7758d97bb6"
-  },
-  "openai-ec0a4e03-bbcc-4c64-813f-b53dabb8f53a": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-08-26",
-    "title": "Workload Porting & Performance Engineer",
-    "url": "https://jobs.ashbyhq.com/openai/ec0a4e03-bbcc-4c64-813f-b53dabb8f53a"
   },
   "openai-ec317080-e2d2-4a73-93e6-e0a9ae6fdf96": {
     "apply_status": "need_to_apply",
