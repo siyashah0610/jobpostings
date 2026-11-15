@@ -2771,6 +2771,13 @@
     "title": "Research Engineer / Scientist, Pre-training",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468947008"
   },
+  "anthropic-5469291008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-11-15",
+    "title": "Engineering Manager, Billing Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5469291008"
+  },
   "anthropic-5470528008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
@@ -2946,40 +2953,12 @@
     "title": "Technical Program Manager, Life Sciences Research (Genetic Medicine)",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5481980008"
   },
-  "nvidia-/job/US-CA-Remote/Senior-Software-Engineer--Nix-Packaging-and-Release-Automation_JR2029346": {
+  "nvidia-/job/US-CA-Santa-Clara/Deep-Learning-Framework-Communications-Engineer---New-College-Grad-2026_JR2026129-1": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-11-13",
-    "title": "Senior Software Engineer, Nix Packaging and Release Automation",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer--Nix-Packaging-and-Release-Automation_JR2029346"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Corporate-Development-Manager_JR2028165-1": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-11-13",
-    "title": "Corporate Development Manager",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Corporate-Development-Manager_JR2028165-1"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Director-of-Revenue-Accounting_JR2029312": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-11-14",
-    "title": "Director of Revenue Accounting",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Director-of-Revenue-Accounting_JR2029312"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Hardware-Design-Validation-Engineer_JR2029438": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-11-14",
-    "title": "Hardware\u00a0Design Validation Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Hardware-Design-Validation-Engineer_JR2029438"
-  },
-  "nvidia-/job/US-CA-Santa-Clara/Manager--Incident-Management---DGX-Cloud-Resilience-Engineering_JR2029685": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-11-13",
-    "title": "Manager, Incident Management - DGX Cloud Resilience Engineering",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Incident-Management---DGX-Cloud-Resilience-Engineering_JR2029685"
+    "first_seen": "2026-11-15",
+    "title": "Deep Learning Framework Communications Engineer - New College Grad 2026",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Deep-Learning-Framework-Communications-Engineer---New-College-Grad-2026_JR2026129-1"
   },
   "nvidia-/job/US-CA-Santa-Clara/Product-Manager---Open-Models_JR2026207": {
     "apply_status": "need_to_apply",
@@ -2988,68 +2967,54 @@
     "title": "Product Manager - Open Models",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Manager---Open-Models_JR2026207"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-ASIC-Design-Engineer--Memory-Controller_JR2029629": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Firmware-Engineer---CSP-Engagements_JR1999599": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-11-13",
-    "title": "Senior ASIC Design Engineer, Memory Controller",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-ASIC-Design-Engineer--Memory-Controller_JR2029629"
+    "first_seen": "2026-11-15",
+    "title": "Senior Firmware Engineer \u2013 CSP Engagements",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Firmware-Engineer---CSP-Engagements_JR1999599"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Manager--Developer-Tooling-and-QE_JR2029680": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Product-Manager---NVIDIA-Sentry-and-DOCA-Security_JR2029623": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-11-13",
-    "title": "Senior Manager, Developer Tooling and QE",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Developer-Tooling-and-QE_JR2029680"
+    "first_seen": "2026-11-15",
+    "title": "Senior Product Manager - NVIDIA Sentry and DOCA Security",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Product-Manager---NVIDIA-Sentry-and-DOCA-Security_JR2029623"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Manager--Technical-Program-Management---Planning_JR2029630": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Software-Development-Engineer--Motion-Planning---Autonomous-Vehicles_JR2029621": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-11-13",
-    "title": "Senior Manager, Technical Program Management \u2014 Planning",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Technical-Program-Management---Planning_JR2029630"
+    "first_seen": "2026-11-15",
+    "title": "Senior Software Development Engineer, Motion Planning - Autonomous Vehicles",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Development-Engineer--Motion-Planning---Autonomous-Vehicles_JR2029621"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Mixed-Signal-Design-Engineer_JR2029679": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Software-Program-Manager---Datacenter-Compute-Server_JR1996363": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-11-13",
-    "title": "Senior Mixed Signal Design Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Mixed-Signal-Design-Engineer_JR2029679"
+    "first_seen": "2026-11-15",
+    "title": "Senior Software Program Manager - Datacenter Compute Server",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Program-Manager---Datacenter-Compute-Server_JR1996363"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-Packaging-Development-Engineer_JR2029536": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--NPI-Data-Center_JR2029799": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-11-13",
-    "title": "Senior Packaging Development Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Packaging-Development-Engineer_JR2029536"
+    "first_seen": "2026-11-15",
+    "title": "Senior System Software Engineer, NPI Data Center",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--NPI-Data-Center_JR2029799"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Senior-System-Software-Engineer_JR2029610": {
+  "nvidia-/job/US-CA-Santa-Clara/Senior-Systems-Firmware-Engineer---SBIOS--Bringup_JR2028412": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-11-13",
-    "title": "Senior System Software Engineer",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer_JR2029610"
+    "first_seen": "2026-11-15",
+    "title": "Senior Systems Firmware Engineer - SBIOS, Bringup",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Firmware-Engineer---SBIOS--Bringup_JR2028412"
   },
-  "nvidia-/job/US-CA-Santa-Clara/Thermal-Engineering-Program-Manager_JR2029603": {
+  "nvidia-/job/US-CA-Santa-Clara/Software-Engineer--Technical-Lead---Performance-Data-Platform_JR2029009": {
     "apply_status": "need_to_apply",
     "company": "NVIDIA",
-    "first_seen": "2026-11-13",
-    "title": "Thermal Engineering Program Manager",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Thermal-Engineering-Program-Manager_JR2029603"
-  },
-  "nvidia-/job/US-DC-Remote/Developer-Relations-Manager--Federal-Cybersecurity_JR2030051": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-11-14",
-    "title": "Developer Relations Manager, Federal Cybersecurity",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-DC-Remote/Developer-Relations-Manager--Federal-Cybersecurity_JR2030051"
-  },
-  "nvidia-/job/US-WA-Remote/Principal-Engineer--Security-Architecture---DGX-Cloud_JR2026132": {
-    "apply_status": "need_to_apply",
-    "company": "NVIDIA",
-    "first_seen": "2026-11-13",
-    "title": "Principal Engineer, Security Architecture - DGX Cloud",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Remote/Principal-Engineer--Security-Architecture---DGX-Cloud_JR2026132"
+    "first_seen": "2026-11-15",
+    "title": "Software Engineer, Technical Lead \u2013 Performance Data Platform",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Technical-Lead---Performance-Data-Platform_JR2029009"
   },
   "openai-00207abc-49b7-465c-a219-f7c1140f8047": {
     "apply_status": "need_to_apply",
