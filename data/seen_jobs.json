@@ -569,13 +569,6 @@
     "title": "Scaled Enterprise Account Executive, Industries",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5182887008"
   },
-  "anthropic-5184585008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-09-29",
-    "title": "Data Science, Finance & Strategy",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5184585008"
-  },
   "anthropic-5192805008": {
     "company": "Anthropic",
     "first_seen": "2026-08-26",
@@ -848,26 +841,12 @@
     "title": "Technical Program Manager, Enterprise Commerce",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5301958008"
   },
-  "anthropic-5305476008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-08-26",
-    "title": "Threat Intel Manager, Model Exploitation & Fraud",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5305476008"
-  },
   "anthropic-5305631008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
     "first_seen": "2026-08-26",
     "title": "Threat Intel Manager, CBRN-E & Advanced Weapons",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5305631008"
-  },
-  "anthropic-5311463008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-08-26",
-    "title": "Staff+ Application Security Engineer  - M&A  ",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5311463008"
   },
   "anthropic-5316593008": {
     "apply_status": "need_to_apply",
@@ -929,26 +908,12 @@
     "title": "Finance & Strategy, Deal Strategy",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358090008"
   },
-  "anthropic-5358096008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-11-05",
-    "title": "Product Finance & Strategy, Claude Platform, Forecasting & Rhythms",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358096008"
-  },
   "anthropic-5358098008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
     "first_seen": "2026-09-30",
     "title": "Finance & Strategy, Compute",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358098008"
-  },
-  "anthropic-5358122008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-08-26",
-    "title": "Tax Director, Provision & Compliance",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358122008"
   },
   "anthropic-5358138008": {
     "apply_status": "need_to_apply",
@@ -1077,12 +1042,6 @@
     "first_seen": "2026-08-26",
     "title": "AI Infrastructure Operations, Demand Planning",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5382750008"
-  },
-  "anthropic-5383114008": {
-    "company": "Anthropic",
-    "first_seen": "2026-08-26",
-    "title": "Staff+ Software Engineer, Privacy",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383114008"
   },
   "anthropic-5383335008": {
     "company": "Anthropic",
@@ -2619,13 +2578,6 @@
     "title": "Staff+ Software Engineer, Claude Design",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5477746008"
   },
-  "anthropic-5477753008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-11-10",
-    "title": "Principal Engineer, Privacy",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5477753008"
-  },
   "anthropic-5478799008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
@@ -2752,12 +2704,26 @@
     "title": "Corporate Network Engineer",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5489564008"
   },
+  "anthropic-5489567008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-11-21",
+    "title": "Research Engineer, Finetuning",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5489567008"
+  },
   "anthropic-5490122008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
     "first_seen": "2026-11-20",
     "title": "Engineering Manager, Privacy Infrastructure",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5490122008"
+  },
+  "anthropic-5490492008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-11-21",
+    "title": "Research Operations, External Artifacts",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5490492008"
   },
   "anthropic-5490572008": {
     "apply_status": "need_to_apply",
@@ -3662,13 +3628,6 @@
     "title": "Marketplace Programs Manager, B2B Partnerships",
     "url": "https://jobs.ashbyhq.com/openai/30094f74-2213-4251-a924-806cab36a8be"
   },
-  "openai-30a1d941-f12c-4589-a7a0-dad116b9aa33": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-10-19",
-    "title": "Product Reliability Engineer ",
-    "url": "https://jobs.ashbyhq.com/openai/30a1d941-f12c-4589-a7a0-dad116b9aa33"
-  },
   "openai-31df540f-4062-46e8-918f-b747a90c7052": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -3822,13 +3781,6 @@
     "first_seen": "2026-10-08",
     "title": "Head of LATAM Product Partnerships ",
     "url": "https://jobs.ashbyhq.com/openai/3a24a9a2-47e1-427c-ac76-81b5c59b638b"
-  },
-  "openai-3a415c1d-4f66-4578-8eb3-8b15ef0ab52b": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-08-26",
-    "title": "Design Verification Engineer ",
-    "url": "https://jobs.ashbyhq.com/openai/3a415c1d-4f66-4578-8eb3-8b15ef0ab52b"
   },
   "openai-3a64da1c-bf29-4e52-baa3-a8f35f16ff74": {
     "apply_status": "need_to_apply",
@@ -4410,6 +4362,13 @@
     "first_seen": "2026-08-26",
     "title": "Android Engineer, Applied Foundations ",
     "url": "https://jobs.ashbyhq.com/openai/6202038a-323b-43ce-ae10-534acba4145c"
+  },
+  "openai-62032f94-87e8-45b8-968c-db9b8893e907": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-11-21",
+    "title": "Integrated Marketing Manager",
+    "url": "https://jobs.ashbyhq.com/openai/62032f94-87e8-45b8-968c-db9b8893e907"
   },
   "openai-6224a72e-16cc-49c2-8b8c-b87b001e6c61": {
     "apply_status": "need_to_apply",
@@ -6391,6 +6350,13 @@
     "title": "Engineering Manager, Core Services ",
     "url": "https://jobs.ashbyhq.com/openai/ebc65e7d-d86a-4066-aa82-3a7758d97bb6"
   },
+  "openai-ebe31cd6-0b6a-4214-b3c1-7dd7074753d6": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-11-21",
+    "title": "Mechanical Design Engineer, Battery Pack",
+    "url": "https://jobs.ashbyhq.com/openai/ebe31cd6-0b6a-4214-b3c1-7dd7074753d6"
+  },
   "openai-ec317080-e2d2-4a73-93e6-e0a9ae6fdf96": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -6489,6 +6455,13 @@
     "title": "Security Incident Response Team Manager",
     "url": "https://jobs.ashbyhq.com/openai/f23e6564-d8a4-403c-87ac-5c77c810bf3d"
   },
+  "openai-f26bd8f0-5440-46bd-b6c0-8b7465f8e6dc": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-11-21",
+    "title": "Treasury, Trade Finance & Cash Flow Forecasting",
+    "url": "https://jobs.ashbyhq.com/openai/f26bd8f0-5440-46bd-b6c0-8b7465f8e6dc"
+  },
   "openai-f2d8ed04-3c2f-4298-832b-dda7e1644c1b": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -6502,13 +6475,6 @@
     "first_seen": "2026-11-03",
     "title": "Engineering Manager, API Multicloud",
     "url": "https://jobs.ashbyhq.com/openai/f363932f-2820-4056-9786-14cb697f4a93"
-  },
-  "openai-f386b209-1259-4b79-bf5a-aa97fc7ce77b": {
-    "apply_status": "need_to_apply",
-    "company": "OpenAI",
-    "first_seen": "2026-08-26",
-    "title": "Software Engineer, Accelerators",
-    "url": "https://jobs.ashbyhq.com/openai/f386b209-1259-4b79-bf5a-aa97fc7ce77b"
   },
   "openai-f3ddd41c-541f-485e-90d6-86c26e018e9f": {
     "apply_status": "need_to_apply",
