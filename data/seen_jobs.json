@@ -314,13 +314,6 @@
     "title": "Strategic Account Executive, Healthcare",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5074997008"
   },
-  "anthropic-5076754008": {
-    "apply_status": "need_to_apply",
-    "company": "Anthropic",
-    "first_seen": "2026-10-27",
-    "title": "Director, Revenue Accounting",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5076754008"
-  },
   "anthropic-5077996008": {
     "company": "Anthropic",
     "first_seen": "2026-08-26",
@@ -953,6 +946,13 @@
     "first_seen": "2026-08-26",
     "title": "Staff+ Software Engineer, Enterprise AI Products",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5368034008"
+  },
+  "anthropic-5369102008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-11-25",
+    "title": "Engineering Manager, Labs",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5369102008"
   },
   "anthropic-5369710008": {
     "apply_status": "need_to_apply",
@@ -2704,6 +2704,13 @@
     "title": "Research Engineer, Finetuning",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5489567008"
   },
+  "anthropic-5489900008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-11-25",
+    "title": "Manager, Compliance & Regulatory Operations",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5489900008"
+  },
   "anthropic-5490122008": {
     "apply_status": "need_to_apply",
     "company": "Anthropic",
@@ -2766,6 +2773,13 @@
     "first_seen": "2026-11-24",
     "title": "Applied AI Architect, Technology Partnerships",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5491480008"
+  },
+  "anthropic-5491501008": {
+    "apply_status": "need_to_apply",
+    "company": "Anthropic",
+    "first_seen": "2026-11-25",
+    "title": "Area Lead, Data Center Security Operations (NORAM - North East)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5491501008"
   },
   "anthropic-5491573008": {
     "apply_status": "need_to_apply",
@@ -5874,6 +5888,13 @@
     "title": "Software Engineer, Monetization Product & Platform ",
     "url": "https://jobs.ashbyhq.com/openai/c51e48ce-31ad-4176-a6d5-4a785b44ab73"
   },
+  "openai-c58aecd7-b306-4c06-9648-8090d0a93217": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-11-25",
+    "title": "Head of Applied AI Architects \u2013 Commercial Sales (Midmarket, SMB)",
+    "url": "https://jobs.ashbyhq.com/openai/c58aecd7-b306-4c06-9648-8090d0a93217"
+  },
   "openai-c717b98e-5394-4ad1-ae3f-e036717ad9b5": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -6266,6 +6287,13 @@
     "title": "Software Engineer, Delivery / CD",
     "url": "https://jobs.ashbyhq.com/openai/e14fc37c-7ae5-4a6b-ba0d-a36860cf9bb2"
   },
+  "openai-e1823ba3-a94c-410f-b064-217a1d71c866": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-11-25",
+    "title": "Software Engineer, Space Foundations \u2014 Real-Time Systems",
+    "url": "https://jobs.ashbyhq.com/openai/e1823ba3-a94c-410f-b064-217a1d71c866"
+  },
   "openai-e1b8fd3a-315c-4480-9105-98228093d429": {
     "apply_status": "need_to_apply",
     "company": "OpenAI",
@@ -6398,6 +6426,13 @@
     "first_seen": "2026-10-22",
     "title": "Compute Electrical Engineer, Robotics",
     "url": "https://jobs.ashbyhq.com/openai/eb112d35-cd7e-45a4-8633-5d7ade298a39"
+  },
+  "openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-11-25",
+    "title": "Solutions Engineer, Ads Solutions - NYC",
+    "url": "https://jobs.ashbyhq.com/openai/eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb"
   },
   "openai-ebc65e7d-d86a-4066-aa82-3a7758d97bb6": {
     "apply_status": "need_to_apply",
@@ -6545,6 +6580,13 @@
     "first_seen": "2026-11-03",
     "title": "Engineering Manager, API Multicloud",
     "url": "https://jobs.ashbyhq.com/openai/f363932f-2820-4056-9786-14cb697f4a93"
+  },
+  "openai-f3f3ba4c-cc37-44fe-a8b1-5aa4553c3092": {
+    "apply_status": "need_to_apply",
+    "company": "OpenAI",
+    "first_seen": "2026-11-25",
+    "title": "Software Engineer, Space Foundations \u2014 Search & Databases",
+    "url": "https://jobs.ashbyhq.com/openai/f3f3ba4c-cc37-44fe-a8b1-5aa4553c3092"
   },
   "openai-f42d2e1e-8c2d-47cf-bd29-4b459c06ae1a": {
     "apply_status": "need_to_apply",
